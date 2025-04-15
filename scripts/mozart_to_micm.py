@@ -145,7 +145,9 @@ def parse_equations(lines):
             lines = lines____.split('____')[0:-1]
             parse_result = parse_equation_set(label, lines)
             if len(parse_result) > 0:
-                equations.append(parse_result)
+                # equations.append(parse_result)
+                for equation in parse_result:
+                    equations.append(equation)
 
     return equations
 
