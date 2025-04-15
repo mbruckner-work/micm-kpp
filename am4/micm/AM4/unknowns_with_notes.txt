@@ -1,0 +1,63 @@
+UNKNOWN uo_o2 (1)
+    -> same as in TS1.
+    -> done.
+UNKNOWN uho2_ho2 (1)
+    -> use the j1m version. Also use the version with qin and not invariants?
+    -> When do that, essentially the same as the TS1 version. 
+    -> copied TS1 rxn implementation.
+UNKNOWN un2o5 (1)
+    -> coeffs were a little different than TS1.
+    -> done. 
+UNKNOWN uoh_hno3 (1)
+    -> notes indicate should be same/similar to TS1.
+    -> seems done and the same as TS1. 
+UNKNOWN uhno4 (1)
+    -> possibly don't have a clue what is here. 
+    -> ho2no2_m rxn? Code basically the same, and so are hard-wired #s
+    -> copy TS1 implementation. 
+UNKNOWN upan_b (1)
+    -> Started by looking at TS1 usr_PAN_M and AM4 upan_b. Name for initial rxn building from is diff, but actual substance is same.
+        --> modifies pan_f rate. Besides the name for indexing to pan_f rate, everything is the same. 
+    -> I'm not sure the musicbox config for TS1 is right on this one?
+UNKNOWN uoh_acet (1)
+    -> same as TS1 usr_CH3COCH3_OH
+    -> done. 
+UNKNOWN umpan_b (1)
+    -> 
+UNKNOWN n2o5h (1)
+    -> Seems to be a surface heterogeneous rxn. Not fully sure how to get the reaction probability.
+    -> I think the reaction probability might be the sticking coefficient (input 4 to calc_hetrate)?
+        --> that input seems to be fed in as an option with trop_option
+    -> gamma given in table S3 of Horowitz et al. 2020. 
+    -> done.
+UNKNOWN no3h (1)
+    -> done.
+UNKNOWN ho2h (1)
+    -> done.
+UNKNOWN no2h (1)
+    -> done.
+UNKNOWN so2h (1)
+    -> dynamic calculation of gamma from Zheng et al 2015 is turned on. Rate is dependent on relative humidity
+UNKNOWN uoh_dms (1)
+    -> Notes indicate that should be similar enough to the TS1 version.
+    -> however, the new version is missing an m(:,k) in the k0 line that is in the old version and the TS1 version.
+UNKNOWN nh3h (1)
+    -> gamma is 0 and sets rate to 0 if gNH3 is 0.
+    -> I think we can just drop this?
+UNKNOWN strat38 (1)
+    -> Cl2O2 + M -> 2*ClO + M  
+    -> similar but not the same as usr_CL2O2_M
+    -> done. But recheck that numbers are right later.
+UNKNOWN strat72 (1)
+    -> All of the ones after this pull out of hetrates_strat which is filled based on strat_chem_get_gamma and strat_chem_get_hetrates functions. 
+    -> I'm not fully sure how to turn these into standard reactions supported in MICM...
+    -> Horowitz et al. 2020 points to Austin and Wilson, 2006. AW06 points to a conference talk or a paper that was published later. Found Austin et al 2007?
+UNKNOWN strat73 (1)
+UNKNOWN strat73 (1)
+UNKNOWN strat74 (1)
+UNKNOWN strat75 (1)
+UNKNOWN strat76 (1)
+UNKNOWN strat77 (1)
+UNKNOWN strat78 (1)
+UNKNOWN strat79 (1)
+UNKNOWN strat80 (1)

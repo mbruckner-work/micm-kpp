@@ -1,0 +1,4702 @@
+{
+    "camp-data": [
+        {
+            "name": "AM4",
+            "type": "MECHANISM",
+            "reactions": [
+                    {
+                        "MUSICA name": "jo2 (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "O2": {}
+                        },
+                        "products": {
+                            "O": {
+                                "yield": 2.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jo1d (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "O3": {}
+                        },
+                        "products": {
+                            "O1D": {
+                                "yield": 1.0
+                            },
+                            "O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jo3p (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "O3": {}
+                        },
+                        "products": {
+                            "O": {
+                                "yield": 1.0
+                            },
+                            "O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jn2o (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "N2O": {}
+                        },
+                        "products": {
+                            "O1D": {
+                                "yield": 1.0
+                            },
+                            "N2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jno (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "NO": {}
+                        },
+                        "products": {
+                            "N": {
+                                "yield": 1.0
+                            },
+                            "O": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jno2 (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "NO2": {}
+                        },
+                        "products": {
+                            "NO": {
+                                "yield": 1.0
+                            },
+                            "O": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jn2o5 (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "N2O5": {}
+                        },
+                        "products": {
+                            "NO2": {
+                                "yield": 1.0
+                            },
+                            "NO3": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jhno3 (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "HNO3": {}
+                        },
+                        "products": {
+                            "NO2": {
+                                "yield": 1.0
+                            },
+                            "OH": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jno3 (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "NO3": {}
+                        },
+                        "products": {
+                            "NO2": {
+                                "yield": 0.89
+                            },
+                            "NO": {
+                                "yield": 0.11
+                            },
+                            "O": {
+                                "yield": 0.89
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jho2no2 (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "HO2NO2": {}
+                        },
+                        "products": {
+                            "NO2": {
+                                "yield": 1.0
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jch3ooh (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "CH3OOH": {}
+                        },
+                        "products": {
+                            "CH2O": {
+                                "yield": 1.0
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            },
+                            "OH": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jch2o_a (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "CH2O": {}
+                        },
+                        "products": {
+                            "CO": {
+                                "yield": 1.0
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            },
+                            "H": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jch2o_b (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "CH2O": {}
+                        },
+                        "products": {
+                            "CO": {
+                                "yield": 1.0
+                            },
+                            "H2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jh2o (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "H2O": {}
+                        },
+                        "products": {
+                            "OH": {
+                                "yield": 1.0
+                            },
+                            "H": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jh2o2 (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "H2O2": {}
+                        },
+                        "products": {
+                            "OH": {
+                                "yield": 2.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jch3cho (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "CH3CHO": {}
+                        },
+                        "products": {
+                            "CH3O2": {
+                                "yield": 1.0
+                            },
+                            "CO": {
+                                "yield": 1.0
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jpooh (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "POOH": {}
+                        },
+                        "products": {
+                            "CH3CHO": {
+                                "yield": 1.0
+                            },
+                            "CH2O": {
+                                "yield": 1.0
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            },
+                            "OH": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jch3co3h (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "CH3COOOH": {}
+                        },
+                        "products": {
+                            "CH3O2": {
+                                "yield": 1.0
+                            },
+                            "OH": {
+                                "yield": 1.0
+                            },
+                            "CO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jpan (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "PAN": {}
+                        },
+                        "products": {
+                            "CH3CO3": {
+                                "yield": 0.6
+                            },
+                            "NO2": {
+                                "yield": 0.6
+                            },
+                            "CH3O2": {
+                                "yield": 0.4
+                            },
+                            "NO3": {
+                                "yield": 0.4
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jmpan (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "MPAN": {}
+                        },
+                        "products": {
+                            "MAO3": {
+                                "yield": 1.0
+                            },
+                            "NO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jmacr_a (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "MACR": {}
+                        },
+                        "products": {
+                            "HO2": {
+                                "yield": 1.34
+                            },
+                            "MAO3": {
+                                "yield": 0.66
+                            },
+                            "CH2O": {
+                                "yield": 1.34
+                            },
+                            "CH3CO3": {
+                                "yield": 1.34
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jmacr_b (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "MACR": {}
+                        },
+                        "products": {
+                            "OH": {
+                                "yield": 0.66
+                            },
+                            "CO": {
+                                "yield": 1.34
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jmvk (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "MVK": {}
+                        },
+                        "products": {
+                            "C3H6": {
+                                "yield": 0.7
+                            },
+                            "CO": {
+                                "yield": 0.7
+                            },
+                            "CH3O2": {
+                                "yield": 0.3
+                            },
+                            "CH3CO3": {
+                                "yield": 0.3
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jc2h5ooh (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "C2H5OOH": {}
+                        },
+                        "products": {
+                            "CH3CHO": {
+                                "yield": 1.0
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            },
+                            "OH": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jc3h7ooh (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "C3H7OOH": {}
+                        },
+                        "products": {
+                            "CH3COCH3": {
+                                "yield": 0.82
+                            },
+                            "OH": {
+                                "yield": 1.0
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jacet (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "CH3COCH3": {}
+                        },
+                        "products": {
+                            "CH3CO3": {
+                                "yield": 1.0
+                            },
+                            "CH3O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jmgly (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "MGLY": {}
+                        },
+                        "products": {
+                            "CH3CO3": {
+                                "yield": 1.0
+                            },
+                            "CO": {
+                                "yield": 1.0
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jglyoxal (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "GLYX": {}
+                        },
+                        "products": {
+                            "CO": {
+                                "yield": 2.0
+                            },
+                            "HO2": {
+                                "yield": 2.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jisopooh (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "ISOPOOH": {}
+                        },
+                        "products": {
+                            "MVK": {
+                                "yield": 0.402
+                            },
+                            "MACR": {
+                                "yield": 0.288
+                            },
+                            "CH2O": {
+                                "yield": 0.69
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jhyac (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "HYAC": {}
+                        },
+                        "products": {
+                            "CH3CO3": {
+                                "yield": 1.0
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            },
+                            "CH2O": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jglyald (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "GLYALD": {}
+                        },
+                        "products": {
+                            "HO2": {
+                                "yield": 2.0
+                            },
+                            "CO": {
+                                "yield": 1.0
+                            },
+                            "CH2O": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jisopnb (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "ISOPNB": {}
+                        },
+                        "products": {
+                            "RCHO": {
+                                "yield": 1.0
+                            },
+                            "NO2": {
+                                "yield": 1.0
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jmacrn (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "MACRN": {}
+                        },
+                        "products": {
+                            "NO2": {
+                                "yield": 1.0
+                            },
+                            "HYAC": {
+                                "yield": 1.0
+                            },
+                            "MGLY": {
+                                "yield": 1.0
+                            },
+                            "CH2O": {
+                                "yield": 0.5
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            },
+                            "CO": {
+                                "yield": 0.5
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jmvkn (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "MVKN": {}
+                        },
+                        "products": {
+                            "GLYALD": {
+                                "yield": 1.0
+                            },
+                            "NO2": {
+                                "yield": 1.0
+                            },
+                            "CH3CO3": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jr4n2 (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "R4N2": {}
+                        },
+                        "products": {
+                            "NO2": {
+                                "yield": 1.0
+                            },
+                            "CH3COCH3": {
+                                "yield": 0.32
+                            },
+                            "MEK": {
+                                "yield": 0.19
+                            },
+                            "CH3O2": {
+                                "yield": 0.18
+                            },
+                            "HO2": {
+                                "yield": 0.27
+                            },
+                            "CH3CHO": {
+                                "yield": 0.32
+                            },
+                            "RCHO": {
+                                "yield": 0.13
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jclono2 (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "ClONO2": {}
+                        },
+                        "products": {
+                            "Cl": {
+                                "yield": 1.0
+                            },
+                            "NO3": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jhocl (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "HOCl": {}
+                        },
+                        "products": {
+                            "OH": {
+                                "yield": 1.0
+                            },
+                            "Cl": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jcl2o2 (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "Cl2O2": {}
+                        },
+                        "products": {
+                            "Cl": {
+                                "yield": 2.0
+                            },
+                            "O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jbrono2 (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "BrONO2": {}
+                        },
+                        "products": {
+                            "Br": {
+                                "yield": 1.0
+                            },
+                            "NO3": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jhobr (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "HOBr": {}
+                        },
+                        "products": {
+                            "OH": {
+                                "yield": 1.0
+                            },
+                            "Br": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jbrcl (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "BrCl": {}
+                        },
+                        "products": {
+                            "Br": {
+                                "yield": 1.0
+                            },
+                            "Cl": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jbro (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "BrO": {}
+                        },
+                        "products": {
+                            "Br": {
+                                "yield": 1.0
+                            },
+                            "O": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "jcl2 (1)",
+                        "type": "PHOTOLYSIS",
+                        "reactants": {
+                            "Cl2": {}
+                        },
+                        "products": {
+                            "Cl": {
+                                "yield": 2.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "uo_o2 (2)",
+                        "type": "ARRHENIUS",
+                        "A": 8e-12,
+                        "B": 0,
+                        "C": -2060.0,
+                        "reactants": {
+                            "O": {},
+                            "O3": {}
+                        },
+                        "products": {
+                            "O2": {
+                                "yield": 2.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "uo_o2 (3)",
+                        "type": "ARRHENIUS",
+                        "A": 1.5e-11,
+                        "B": 0,
+                        "C": -3600.0,
+                        "reactants": {
+                            "N": {},
+                            "O2": {}
+                        },
+                        "products": {
+                            "NO": {
+                                "yield": 1.0
+                            },
+                            "O": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "uo_o2 (4)",
+                        "type": "ARRHENIUS",
+                        "A": 2.1e-11,
+                        "B": 0,
+                        "C": 100.0,
+                        "reactants": {
+                            "N": {},
+                            "NO": {}
+                        },
+                        "products": {
+                            "N2": {
+                                "yield": 1.0
+                            },
+                            "O": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "type": "TROE",
+                        "k0_A": 5.9e-33,
+                        "k0_B": -1.4,
+                        "kinf_A": 1.1e-12,
+                        "kinf_B": 1.3,
+                        "Fc": 0.6,
+                        "reactants": {
+                            "CO": {},
+                            "OH": {},
+                            "M": {}
+                        },
+                        "products": {
+                            "CO2": {
+                                "yield": 1.0
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "type": "TROE",
+                        "k0_A": 1.5e-13,
+                        "k0_B": 0.6,
+                        "kinf_A": 2100000000.0,
+                        "kinf_B": 6.1,
+                        "Fc": 0.6,
+                        "reactants": {
+                            "CO": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "CO2": {
+                                "yield": 1.0
+                            },
+                            "H": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "uco_ohb (2)",
+                        "type": "ARRHENIUS",
+                        "A": 1.2e-10,
+                        "B": 0,
+                        "C": 0,
+                        "reactants": {
+                            "H2": {},
+                            "O1D": {}
+                        },
+                        "products": {
+                            "HO2": {
+                                "yield": 1.0
+                            },
+                            "OH": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "uco_ohb (4)",
+                        "type": "ARRHENIUS",
+                        "A": 1.8e-11,
+                        "B": 0,
+                        "C": 180.0,
+                        "reactants": {
+                            "O": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "H": {
+                                "yield": 1.0
+                            },
+                            "O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "uco_ohb (5)",
+                        "type": "ARRHENIUS",
+                        "A": 3e-11,
+                        "B": 0,
+                        "C": 200.0,
+                        "reactants": {
+                            "HO2": {},
+                            "O": {}
+                        },
+                        "products": {
+                            "OH": {
+                                "yield": 1.0
+                            },
+                            "O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "ol_oh (1)",
+                        "type": "ARRHENIUS",
+                        "A": 1.7e-12,
+                        "B": 0,
+                        "C": -940.0,
+                        "reactants": {
+                            "OH": {},
+                            "O3": {}
+                        },
+                        "products": {
+                            "HO2": {
+                                "yield": 1.0
+                            },
+                            "O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "ol_ho2 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 1e-14,
+                        "B": 0,
+                        "C": -490.0,
+                        "reactants": {
+                            "HO2": {},
+                            "O3": {}
+                        },
+                        "products": {
+                            "OH": {
+                                "yield": 1.0
+                            },
+                            "O2": {
+                                "yield": 2.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "uho2_ho2 (2)",
+                        "type": "ARRHENIUS",
+                        "A": 1.8e-12,
+                        "B": 0,
+                        "C": 0,
+                        "reactants": {
+                            "H2O2": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "H2O": {
+                                "yield": 1.0
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "uho2_ho2 (3)",
+                        "type": "ARRHENIUS",
+                        "A": 4.8e-11,
+                        "B": 0,
+                        "C": 250.0,
+                        "reactants": {
+                            "OH": {},
+                            "HO2": {}
+                        },
+                        "products": {
+                            "H2O": {
+                                "yield": 1.0
+                            },
+                            "O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "uho2_ho2 (4)",
+                        "type": "ARRHENIUS",
+                        "A": 1.8e-12,
+                        "B": 0,
+                        "C": 0,
+                        "reactants": {
+                            "OH": {}
+                        },
+                        "products": {
+                            "H2O": {
+                                "yield": 1.0
+                            },
+                            "O": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "uho2_ho2 (5)",
+                        "type": "ARRHENIUS",
+                        "A": 2.8e-12,
+                        "B": 0,
+                        "C": -1800.0,
+                        "reactants": {
+                            "H2": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "H2O": {
+                                "yield": 1.0
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "o1d_n2 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 2.15e-11,
+                        "B": 0,
+                        "C": 110.0,
+                        "reactants": {
+                            "O1D": {},
+                            "N2": {}
+                        },
+                        "products": {
+                            "O": {
+                                "yield": 1.0
+                            },
+                            "N2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "o1d_o2 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 3.3e-11,
+                        "B": 0,
+                        "C": 55.0,
+                        "reactants": {
+                            "O1D": {},
+                            "O2": {}
+                        },
+                        "products": {
+                            "O": {
+                                "yield": 1.0
+                            },
+                            "O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "ol_o1d (1)",
+                        "type": "ARRHENIUS",
+                        "A": 1.63e-10,
+                        "B": 0,
+                        "C": 60.0,
+                        "reactants": {
+                            "O1D": {},
+                            "H2O": {}
+                        },
+                        "products": {
+                            "OH": {
+                                "yield": 2.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "ol_o1d (2)",
+                        "type": "ARRHENIUS",
+                        "A": 7.25e-11,
+                        "B": 0,
+                        "C": 20.0,
+                        "reactants": {
+                            "N2O": {},
+                            "O1D": {}
+                        },
+                        "products": {
+                            "NO": {
+                                "yield": 2.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "ol_o1d (3)",
+                        "type": "ARRHENIUS",
+                        "A": 4.63e-11,
+                        "B": 0,
+                        "C": 20.0,
+                        "reactants": {
+                            "N2O": {},
+                            "O1D": {}
+                        },
+                        "products": {
+                            "N2": {
+                                "yield": 1.0
+                            },
+                            "O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_ho2 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 3.3e-12,
+                        "B": 0,
+                        "C": 270.0,
+                        "reactants": {
+                            "NO": {},
+                            "HO2": {}
+                        },
+                        "products": {
+                            "NO2": {
+                                "yield": 1.0
+                            },
+                            "OH": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_ho2 (2)",
+                        "type": "ARRHENIUS",
+                        "A": 3e-12,
+                        "B": 0,
+                        "C": -1500.0,
+                        "reactants": {
+                            "NO": {},
+                            "O3": {}
+                        },
+                        "products": {
+                            "NO2": {
+                                "yield": 1.0
+                            },
+                            "O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_ho2 (3)",
+                        "type": "ARRHENIUS",
+                        "A": 5.1e-12,
+                        "B": 0,
+                        "C": 210.0,
+                        "reactants": {
+                            "NO2": {},
+                            "O": {}
+                        },
+                        "products": {
+                            "NO": {
+                                "yield": 1.0
+                            },
+                            "O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_ho2 (4)",
+                        "type": "ARRHENIUS",
+                        "A": 1.2e-13,
+                        "B": 0,
+                        "C": -2450.0,
+                        "reactants": {
+                            "NO2": {},
+                            "O3": {}
+                        },
+                        "products": {
+                            "NO3": {
+                                "yield": 1.0
+                            },
+                            "O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_ho2 (5)",
+                        "type": "ARRHENIUS",
+                        "A": 3.5e-12,
+                        "B": 0,
+                        "C": 0,
+                        "reactants": {
+                            "NO3": {},
+                            "HO2": {}
+                        },
+                        "products": {
+                            "OH": {
+                                "yield": 1.0
+                            },
+                            "NO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "type": "TROE",
+                        "k0_A": 2e-30,
+                        "k0_B": -4.4,
+                        "kinf_A": 1.4e-12,
+                        "kinf_B": -0.7,
+                        "Fc": 0.6,
+                        "reactants": {
+                            "NO2": {},
+                            "NO3": {},
+                            "M": {}
+                        },
+                        "products": {
+                            "N2O5": {
+                                "yield": 1.0
+                            },
+                            "M": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "un2o5 (2)",
+                        "type": "ARRHENIUS",
+                        "A": 0.0,
+                        "B": 0,
+                        "C": 0,
+                        "reactants": {
+                            "N2O5": {},
+                            "H2O": {}
+                        },
+                        "products": {
+                            "HNO3": {
+                                "yield": 2.0
+                            }
+                        }
+                    },
+                    {
+                        "type": "TROE",
+                        "k0_A": 1.8e-30,
+                        "k0_B": -3.0,
+                        "kinf_A": 2.8e-11,
+                        "kinf_B": -0.0,
+                        "Fc": 0.6,
+                        "reactants": {
+                            "NO2": {},
+                            "OH": {},
+                            "M": {}
+                        },
+                        "products": {
+                            "HNO3": {
+                                "yield": 1.0
+                            },
+                            "M": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "uoh_hno3 (2)",
+                        "type": "ARRHENIUS",
+                        "A": 1.5e-11,
+                        "B": 0,
+                        "C": 170.0,
+                        "reactants": {
+                            "NO3": {},
+                            "NO": {}
+                        },
+                        "products": {
+                            "NO2": {
+                                "yield": 2.0
+                            }
+                        }
+                    },
+                    {
+                        "type": "TROE",
+                        "k0_A": 2e-31,
+                        "k0_B": -3.4,
+                        "kinf_A": 2.9e-12,
+                        "kinf_B": -1.1,
+                        "Fc": 0.6,
+                        "reactants": {
+                            "NO2": {},
+                            "HO2": {},
+                            "M": {}
+                        },
+                        "products": {
+                            "HO2NO2": {
+                                "yield": 1.0
+                            },
+                            "M": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "uho2_no2 (2)",
+                        "type": "ARRHENIUS",
+                        "A": 1.3e-12,
+                        "B": 0,
+                        "C": 380.0,
+                        "reactants": {
+                            "HO2NO2": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "H2O": {
+                                "yield": 1.0
+                            },
+                            "NO2": {
+                                "yield": 1.0
+                            },
+                            "O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "uhno4 (2)",
+                        "type": "ARRHENIUS",
+                        "A": 2.45e-12,
+                        "B": 0,
+                        "C": -1775.0,
+                        "reactants": {
+                            "CH4": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "CH3O2": {
+                                "yield": 1.0
+                            },
+                            "H2O": {
+                                "yield": 1.0
+                            },
+                            "LCH4": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "uhno4 (3)",
+                        "type": "ARRHENIUS",
+                        "A": 1.5e-10,
+                        "B": 0,
+                        "C": 0,
+                        "reactants": {
+                            "CH4": {},
+                            "O1D": {}
+                        },
+                        "products": {
+                            "CH3O2": {
+                                "yield": 0.75
+                            },
+                            "OH": {
+                                "yield": 0.75
+                            },
+                            "CH2O": {
+                                "yield": 0.25
+                            },
+                            "HO2": {
+                                "yield": 0.2
+                            },
+                            "H": {
+                                "yield": 0.2
+                            },
+                            "H2": {
+                                "yield": 0.05
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_mo2 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 2.8e-12,
+                        "B": 0,
+                        "C": 300.0,
+                        "reactants": {
+                            "CH3O2": {},
+                            "NO": {}
+                        },
+                        "products": {
+                            "CH2O": {
+                                "yield": 1.0
+                            },
+                            "NO2": {
+                                "yield": 1.0
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_mo2 (2)",
+                        "type": "ARRHENIUS",
+                        "A": 6.03e-13,
+                        "B": 0,
+                        "C": -453.0,
+                        "reactants": {
+                            "CH3O2": {}
+                        },
+                        "products": {
+                            "CH2O": {
+                                "yield": 2.0
+                            },
+                            "HO2": {
+                                "yield": 2.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_mo2 (3)",
+                        "type": "ARRHENIUS",
+                        "A": 2.3e-14,
+                        "B": 0,
+                        "C": 677.0,
+                        "reactants": {
+                            "CH3O2": {}
+                        },
+                        "products": {
+                            "CH2O": {
+                                "yield": 1.0
+                            },
+                            "CH3OH": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_mo2 (4)",
+                        "type": "ARRHENIUS",
+                        "A": 4.1e-13,
+                        "B": 0,
+                        "C": 750.0,
+                        "reactants": {
+                            "CH3O2": {},
+                            "HO2": {}
+                        },
+                        "products": {
+                            "CH3OOH": {
+                                "yield": 1.0
+                            },
+                            "O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_mo2 (5)",
+                        "type": "ARRHENIUS",
+                        "A": 3.8e-12,
+                        "B": 0,
+                        "C": 200.0,
+                        "reactants": {
+                            "CH3OOH": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "CH3O2": {
+                                "yield": 0.7
+                            },
+                            "OH": {
+                                "yield": 0.3
+                            },
+                            "CH2O": {
+                                "yield": 0.3
+                            },
+                            "H2O": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_mo2 (6)",
+                        "type": "ARRHENIUS",
+                        "A": 3.4e-13,
+                        "B": 0,
+                        "C": -1900.0,
+                        "reactants": {
+                            "CH2O": {},
+                            "NO3": {}
+                        },
+                        "products": {
+                            "CO": {
+                                "yield": 1.0
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            },
+                            "HNO3": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_mo2 (7)",
+                        "type": "ARRHENIUS",
+                        "A": 5.5e-12,
+                        "B": 0,
+                        "C": 125.0,
+                        "reactants": {
+                            "CH2O": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "CO": {
+                                "yield": 1.0
+                            },
+                            "H2O": {
+                                "yield": 1.0
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "type": "TROE",
+                        "k0_A": 1e-28,
+                        "k0_B": -4.5,
+                        "kinf_A": 7.5e-12,
+                        "kinf_B": -0.85,
+                        "Fc": 0.6,
+                        "reactants": {
+                            "OH": {},
+                            "C2H4": {},
+                            "M": {}
+                        },
+                        "products": {
+                            "EO2": {
+                                "yield": 0.75
+                            },
+                            "CH2O": {
+                                "yield": 0.5
+                            },
+                            "HO2": {
+                                "yield": 0.25
+                            },
+                            "M": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_eo2 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 4.2e-12,
+                        "B": 0,
+                        "C": 180.0,
+                        "reactants": {
+                            "EO2": {},
+                            "NO": {}
+                        },
+                        "products": {
+                            "EO": {
+                                "yield": 1.0
+                            },
+                            "NO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_eo2 (2)",
+                        "type": "ARRHENIUS",
+                        "A": 1e-14,
+                        "B": 0,
+                        "C": 0,
+                        "reactants": {
+                            "EO": {},
+                            "O2": {}
+                        },
+                        "products": {
+                            "GLYALD": {
+                                "yield": 1.0
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_eo2 (3)",
+                        "type": "ARRHENIUS",
+                        "A": 160000000000.0,
+                        "B": 0,
+                        "C": -4150.0,
+                        "reactants": {
+                            "EO": {}
+                        },
+                        "products": {
+                            "CH2O": {
+                                "yield": 2.0
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "ol_c2h4 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 1.2e-14,
+                        "B": 0,
+                        "C": -2630.0,
+                        "reactants": {
+                            "C2H4": {},
+                            "O3": {}
+                        },
+                        "products": {
+                            "CH2O": {
+                                "yield": 1.0
+                            },
+                            "HO2": {
+                                "yield": 0.12
+                            },
+                            "CO": {
+                                "yield": 0.5
+                            },
+                            "OH": {
+                                "yield": 0.12
+                            }
+                        }
+                    },
+                    {
+                        "type": "TROE",
+                        "k0_A": 8e-27,
+                        "k0_B": -3.5,
+                        "kinf_A": 3e-11,
+                        "kinf_B": -0.0,
+                        "Fc": 0.5,
+                        "reactants": {
+                            "C3H6": {},
+                            "OH": {},
+                            "M": {}
+                        },
+                        "products": {
+                            "PO2": {
+                                "yield": 1.0
+                            },
+                            "M": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "ol_c3h6 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 5.5e-15,
+                        "B": 0,
+                        "C": -1880.0,
+                        "reactants": {
+                            "C3H6": {},
+                            "O3": {}
+                        },
+                        "products": {
+                            "CH3CHO": {
+                                "yield": 0.4
+                            },
+                            "OH": {
+                                "yield": 0.244
+                            },
+                            "HO2": {
+                                "yield": 0.244
+                            },
+                            "CO": {
+                                "yield": 0.42
+                            },
+                            "CH2O": {
+                                "yield": 0.58
+                            },
+                            "CH3OH": {
+                                "yield": 0.036
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "ol_c3h6 (2)",
+                        "type": "ARRHENIUS",
+                        "A": 4.6e-13,
+                        "B": 0,
+                        "C": -1156.0,
+                        "reactants": {
+                            "C3H6": {},
+                            "NO3": {}
+                        },
+                        "products": {
+                            "R4N2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_po2 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 2.7e-12,
+                        "B": 0,
+                        "C": 350.0,
+                        "reactants": {
+                            "PO2": {},
+                            "NO": {}
+                        },
+                        "products": {
+                            "CH3CHO": {
+                                "yield": 1.0
+                            },
+                            "CH2O": {
+                                "yield": 1.0
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            },
+                            "NO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_po2 (2)",
+                        "type": "ARRHENIUS",
+                        "A": 7.5e-13,
+                        "B": 0,
+                        "C": 700.0,
+                        "reactants": {
+                            "PO2": {},
+                            "HO2": {}
+                        },
+                        "products": {
+                            "POOH": {
+                                "yield": 1.0
+                            },
+                            "O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_po2 (3)",
+                        "type": "ARRHENIUS",
+                        "A": 8.78e-12,
+                        "B": 0,
+                        "C": 200.0,
+                        "reactants": {
+                            "POOH": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "OH": {
+                                "yield": 0.791
+                            },
+                            "PO2": {
+                                "yield": 0.209
+                            },
+                            "RCHO": {
+                                "yield": 0.791
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_po2 (4)",
+                        "type": "ARRHENIUS",
+                        "A": 4.63e-12,
+                        "B": 0,
+                        "C": 350.0,
+                        "reactants": {
+                            "CH3CHO": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "H2O": {
+                                "yield": 1.0
+                            },
+                            "CH3CO3": {
+                                "yield": 0.95
+                            },
+                            "CH2O": {
+                                "yield": 0.05
+                            },
+                            "CO": {
+                                "yield": 0.05
+                            },
+                            "HO2": {
+                                "yield": 0.05
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_po2 (5)",
+                        "type": "ARRHENIUS",
+                        "A": 1.4e-12,
+                        "B": 0,
+                        "C": -1900.0,
+                        "reactants": {
+                            "CH3CHO": {},
+                            "NO3": {}
+                        },
+                        "products": {
+                            "CH3CO3": {
+                                "yield": 1.0
+                            },
+                            "HNO3": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_ch3co3 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 8.1e-12,
+                        "B": 0,
+                        "C": 270.0,
+                        "reactants": {
+                            "CH3CO3": {},
+                            "NO": {}
+                        },
+                        "products": {
+                            "CH3O2": {
+                                "yield": 1.0
+                            },
+                            "CO2": {
+                                "yield": 1.0
+                            },
+                            "NO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "type": "TROE",
+                        "k0_A": 9.7e-29,
+                        "k0_B": -5.6,
+                        "kinf_A": 9.3e-12,
+                        "kinf_B": -1.5,
+                        "Fc": 0.6,
+                        "reactants": {
+                            "CH3CO3": {},
+                            "NO2": {},
+                            "M": {}
+                        },
+                        "products": {
+                            "PAN": {
+                                "yield": 1.0
+                            },
+                            "M": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "upan_f (2)",
+                        "type": "ARRHENIUS",
+                        "A": 5.2e-13,
+                        "B": 0,
+                        "C": 980.0,
+                        "reactants": {
+                            "CH3CO3": {},
+                            "HO2": {}
+                        },
+                        "products": {
+                            "O3": {
+                                "yield": 0.15
+                            },
+                            "OH": {
+                                "yield": 0.44
+                            },
+                            "CH3O2": {
+                                "yield": 0.44
+                            },
+                            "CH3COOOH": {
+                                "yield": 0.41
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "upan_f (3)",
+                        "type": "ARRHENIUS",
+                        "A": 2e-12,
+                        "B": 0,
+                        "C": 500.0,
+                        "reactants": {
+                            "CH3CO3": {},
+                            "CH3O2": {}
+                        },
+                        "products": {
+                            "CH3O2": {
+                                "yield": 0.9
+                            },
+                            "CH2O": {
+                                "yield": 1.0
+                            },
+                            "HO2": {
+                                "yield": 0.9
+                            },
+                            "CO2": {
+                                "yield": 0.9
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "upan_f (4)",
+                        "type": "ARRHENIUS",
+                        "A": 3.8e-12,
+                        "B": 0,
+                        "C": 200.0,
+                        "reactants": {
+                            "CH3COOOH": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "CH3CO3": {
+                                "yield": 0.5
+                            },
+                            "CH2O": {
+                                "yield": 0.5
+                            },
+                            "OH": {
+                                "yield": 0.5
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "upan_b (2)",
+                        "type": "ARRHENIUS",
+                        "A": 2.5e-12,
+                        "B": 0,
+                        "C": 500.0,
+                        "reactants": {
+                            "CH3CO3": {}
+                        },
+                        "products": {
+                            "CH3O2": {
+                                "yield": 2.0
+                            },
+                            "CO2": {
+                                "yield": 2.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "upan_b (3)",
+                        "type": "ARRHENIUS",
+                        "A": 7.66e-12,
+                        "B": 0,
+                        "C": -1020.0,
+                        "reactants": {
+                            "C2H6": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "C2H5O2": {
+                                "yield": 1.0
+                            },
+                            "H2O": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_c2h5o2 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 2.6e-12,
+                        "B": 0,
+                        "C": 365.0,
+                        "reactants": {
+                            "C2H5O2": {},
+                            "NO": {}
+                        },
+                        "products": {
+                            "CH3CHO": {
+                                "yield": 1.0
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            },
+                            "NO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_c2h5o2 (2)",
+                        "type": "ARRHENIUS",
+                        "A": 7.5e-13,
+                        "B": 0,
+                        "C": 700.0,
+                        "reactants": {
+                            "C2H5O2": {},
+                            "HO2": {}
+                        },
+                        "products": {
+                            "C2H5OOH": {
+                                "yield": 1.0
+                            },
+                            "O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_c2h5o2 (3)",
+                        "type": "ARRHENIUS",
+                        "A": 3e-13,
+                        "B": 0,
+                        "C": 0,
+                        "reactants": {
+                            "C2H5O2": {},
+                            "CH3O2": {}
+                        },
+                        "products": {
+                            "CH2O": {
+                                "yield": 0.75
+                            },
+                            "CH3CHO": {
+                                "yield": 0.75
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            },
+                            "CH3OH": {
+                                "yield": 0.25
+                            },
+                            "C2H5OH": {
+                                "yield": 0.25
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_c2h5o2 (4)",
+                        "type": "ARRHENIUS",
+                        "A": 4.1e-14,
+                        "B": 0,
+                        "C": 0,
+                        "reactants": {
+                            "C2H5O2": {}
+                        },
+                        "products": {
+                            "CH3CHO": {
+                                "yield": 2.0
+                            },
+                            "HO2": {
+                                "yield": 2.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_c2h5o2 (5)",
+                        "type": "ARRHENIUS",
+                        "A": 5.18e-12,
+                        "B": 0,
+                        "C": 200.0,
+                        "reactants": {
+                            "C2H5OOH": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "C2H5O2": {
+                                "yield": 0.36
+                            },
+                            "CH3CHO": {
+                                "yield": 0.64
+                            },
+                            "OH": {
+                                "yield": 0.64
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_c2h5o2 (6)",
+                        "type": "ARRHENIUS",
+                        "A": 1.55e-11,
+                        "B": 0,
+                        "C": -540.0,
+                        "reactants": {
+                            "C4H10": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "C3H7O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_c2h5o2 (7)",
+                        "type": "ARRHENIUS",
+                        "A": 8.7e-12,
+                        "B": 0,
+                        "C": -615.0,
+                        "reactants": {
+                            "C3H8": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "C3H7O2": {
+                                "yield": 1.0
+                            },
+                            "H2O": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_c3h7o2 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 4.2e-12,
+                        "B": 0,
+                        "C": 180.0,
+                        "reactants": {
+                            "C3H7O2": {},
+                            "NO": {}
+                        },
+                        "products": {
+                            "CH3COCH3": {
+                                "yield": 0.82
+                            },
+                            "NO2": {
+                                "yield": 1.0
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            },
+                            "CH3CHO": {
+                                "yield": 0.27
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_c3h7o2 (2)",
+                        "type": "ARRHENIUS",
+                        "A": 7.5e-13,
+                        "B": 0,
+                        "C": 700.0,
+                        "reactants": {
+                            "C3H7O2": {},
+                            "HO2": {}
+                        },
+                        "products": {
+                            "C3H7OOH": {
+                                "yield": 1.0
+                            },
+                            "O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_c3h7o2 (3)",
+                        "type": "ARRHENIUS",
+                        "A": 3.75e-13,
+                        "B": 0,
+                        "C": -40.0,
+                        "reactants": {
+                            "C3H7O2": {},
+                            "CH3O2": {}
+                        },
+                        "products": {
+                            "CH2O": {
+                                "yield": 1.0
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            },
+                            "CH3COCH3": {
+                                "yield": 0.82
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_c3h7o2 (4)",
+                        "type": "ARRHENIUS",
+                        "A": 3.8e-12,
+                        "B": 0,
+                        "C": 200.0,
+                        "reactants": {
+                            "C3H7OOH": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "H2O": {
+                                "yield": 1.0
+                            },
+                            "C3H7O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "uoh_acet (2)",
+                        "type": "ARRHENIUS",
+                        "A": 2.9e-12,
+                        "B": 0,
+                        "C": -345.0,
+                        "reactants": {
+                            "OH": {},
+                            "CH3OH": {}
+                        },
+                        "products": {
+                            "HO2": {
+                                "yield": 1.0
+                            },
+                            "CH2O": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "uoh_acet (3)",
+                        "type": "ARRHENIUS",
+                        "A": 6.9e-12,
+                        "B": 0,
+                        "C": -230.0,
+                        "reactants": {
+                            "OH": {},
+                            "C2H5OH": {}
+                        },
+                        "products": {
+                            "HO2": {
+                                "yield": 1.0
+                            },
+                            "CH3CHO": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "uoh_acet (4)",
+                        "type": "ARRHENIUS",
+                        "A": 3.1e-11,
+                        "B": 0,
+                        "C": 350.0,
+                        "reactants": {
+                            "ISOP": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "ISOPO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "uoh_acet (5)",
+                        "type": "ARRHENIUS",
+                        "A": 407000000.0,
+                        "B": 0,
+                        "C": -7694.0,
+                        "reactants": {
+                            "ISOPO2": {}
+                        },
+                        "products": {
+                            "HO2": {
+                                "yield": 1.0
+                            },
+                            "CH2O": {
+                                "yield": 1.0
+                            },
+                            "MGLY": {
+                                "yield": 0.25
+                            },
+                            "GLYALD": {
+                                "yield": 0.5
+                            },
+                            "GLYX": {
+                                "yield": 0.25
+                            },
+                            "HYAC": {
+                                "yield": 0.5
+                            },
+                            "OH": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "ol_isop (1)",
+                        "type": "ARRHENIUS",
+                        "A": 1e-14,
+                        "B": 0,
+                        "C": -1970.0,
+                        "reactants": {
+                            "ISOP": {},
+                            "O3": {}
+                        },
+                        "products": {
+                            "MACR": {
+                                "yield": 0.325
+                            },
+                            "MVK": {
+                                "yield": 0.244
+                            },
+                            "CH2O": {
+                                "yield": 0.845
+                            },
+                            "H2O2": {
+                                "yield": 0.11
+                            },
+                            "CO": {
+                                "yield": 0.522
+                            },
+                            "CH3CO3": {
+                                "yield": 0.199
+                            },
+                            "HO2": {
+                                "yield": 0.026
+                            },
+                            "OH": {
+                                "yield": 0.27
+                            },
+                            "C3H6": {
+                                "yield": 0.128
+                            },
+                            "CH3O2": {
+                                "yield": 0.051
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_isopo2 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 2.7e-12,
+                        "B": 0,
+                        "C": 350.0,
+                        "reactants": {
+                            "ISOPO2": {},
+                            "NO": {}
+                        },
+                        "products": {
+                            "NO2": {
+                                "yield": 0.9
+                            },
+                            "HO2": {
+                                "yield": 0.9
+                            },
+                            "CH2O": {
+                                "yield": 0.9
+                            },
+                            "MVK": {
+                                "yield": 0.55
+                            },
+                            "MACR": {
+                                "yield": 0.35
+                            },
+                            "ISOPNB": {
+                                "yield": 0.1
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_isopo2 (2)",
+                        "type": "ARRHENIUS",
+                        "A": 2.06e-13,
+                        "B": 0,
+                        "C": 1300.0,
+                        "reactants": {
+                            "ISOPO2": {},
+                            "HO2": {}
+                        },
+                        "products": {
+                            "ISOPOOH": {
+                                "yield": 0.937
+                            },
+                            "OH": {
+                                "yield": 0.063
+                            },
+                            "MACR": {
+                                "yield": 0.025
+                            },
+                            "MVK": {
+                                "yield": 0.038
+                            },
+                            "HO2": {
+                                "yield": 0.063
+                            },
+                            "CH2O": {
+                                "yield": 0.063
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_isopo2 (3)",
+                        "type": "ARRHENIUS",
+                        "A": 8.37e-14,
+                        "B": 0,
+                        "C": 0,
+                        "reactants": {
+                            "ISOPO2": {},
+                            "CH3O2": {}
+                        },
+                        "products": {
+                            "HO2": {
+                                "yield": 1.1
+                            },
+                            "CH2O": {
+                                "yield": 1.22
+                            },
+                            "MVK": {
+                                "yield": 0.28
+                            },
+                            "MACR": {
+                                "yield": 0.18
+                            },
+                            "RCHO": {
+                                "yield": 0.3
+                            },
+                            "CH3OH": {
+                                "yield": 0.24
+                            },
+                            "ROH": {
+                                "yield": 0.24
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_isopo2 (4)",
+                        "type": "ARRHENIUS",
+                        "A": 1.54e-13,
+                        "B": 0,
+                        "C": 0,
+                        "reactants": {
+                            "ISOPO2": {}
+                        },
+                        "products": {
+                            "HO2": {
+                                "yield": 1.28
+                            },
+                            "CH2O": {
+                                "yield": 0.92
+                            },
+                            "MVK": {
+                                "yield": 0.56
+                            },
+                            "MACR": {
+                                "yield": 0.36
+                            },
+                            "ROH": {
+                                "yield": 0.48
+                            },
+                            "RCHO": {
+                                "yield": 0.5
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_isopo2 (5)",
+                        "type": "ARRHENIUS",
+                        "A": 3.61e-12,
+                        "B": 0,
+                        "C": 380.0,
+                        "reactants": {
+                            "ISOPNB": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "ISOPNBO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_isopnbo2 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 2.4e-12,
+                        "B": 0,
+                        "C": 360.0,
+                        "reactants": {
+                            "ISOPNBO2": {},
+                            "NO": {}
+                        },
+                        "products": {
+                            "GLYALD": {
+                                "yield": 0.09
+                            },
+                            "HYAC": {
+                                "yield": 0.09
+                            },
+                            "CH2O": {
+                                "yield": 0.69
+                            },
+                            "NO2": {
+                                "yield": 0.88
+                            },
+                            "MACRN": {
+                                "yield": 0.44
+                            },
+                            "HO2": {
+                                "yield": 0.69
+                            },
+                            "MVKN": {
+                                "yield": 0.26
+                            },
+                            "HNO3": {
+                                "yield": 0.42
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_isopnbo2 (2)",
+                        "type": "ARRHENIUS",
+                        "A": 8.7e-14,
+                        "B": 0,
+                        "C": 1650.0,
+                        "reactants": {
+                            "ISOPNBO2": {},
+                            "HO2": {}
+                        },
+                        "products": {
+                            "GLYALD": {
+                                "yield": 0.06
+                            },
+                            "HYAC": {
+                                "yield": 0.06
+                            },
+                            "CH2O": {
+                                "yield": 0.44
+                            },
+                            "MACRN": {
+                                "yield": 0.28
+                            },
+                            "MVKN": {
+                                "yield": 0.16
+                            },
+                            "NO2": {
+                                "yield": 0.06
+                            },
+                            "HO2": {
+                                "yield": 0.44
+                            },
+                            "OH": {
+                                "yield": 0.5
+                            },
+                            "HNO3": {
+                                "yield": 0.5
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "ol_isopnb (1)",
+                        "type": "ARRHENIUS",
+                        "A": 3.7e-19,
+                        "B": 0,
+                        "C": 0,
+                        "reactants": {
+                            "ISOPNB": {},
+                            "O3": {}
+                        },
+                        "products": {
+                            "MVKN": {
+                                "yield": 0.61
+                            },
+                            "MACRN": {
+                                "yield": 0.39
+                            },
+                            "OH": {
+                                "yield": 0.27
+                            },
+                            "CH2O": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "ol_isopnb (2)",
+                        "type": "ARRHENIUS",
+                        "A": 4.75e-12,
+                        "B": 0,
+                        "C": 200.0,
+                        "reactants": {
+                            "ISOPOOH": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "ISOPO2": {
+                                "yield": 0.387
+                            },
+                            "OH": {
+                                "yield": 0.613
+                            },
+                            "RCHO": {
+                                "yield": 0.613
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "ol_isopnb (3)",
+                        "type": "ARRHENIUS",
+                        "A": 1.9e-11,
+                        "B": 0,
+                        "C": 390.0,
+                        "reactants": {
+                            "ISOPOOH": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "OH": {
+                                "yield": 1.0
+                            },
+                            "IEPOX": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "ol_isopnb (4)",
+                        "type": "ARRHENIUS",
+                        "A": 5.78e-11,
+                        "B": 0,
+                        "C": -400.0,
+                        "reactants": {
+                            "IEPOX": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "IEPOXOO": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "ol_isopnb (5)",
+                        "type": "ARRHENIUS",
+                        "A": 2.06e-13,
+                        "B": 0,
+                        "C": 1300.0,
+                        "reactants": {
+                            "IEPOXOO": {},
+                            "HO2": {}
+                        },
+                        "products": {
+                            "HYAC": {
+                                "yield": 0.725
+                            },
+                            "GLYALD": {
+                                "yield": 0.275
+                            },
+                            "GLYX": {
+                                "yield": 0.275
+                            },
+                            "MGLY": {
+                                "yield": 0.275
+                            },
+                            "OH": {
+                                "yield": 1.125
+                            },
+                            "HO2": {
+                                "yield": 0.825
+                            },
+                            "CH2O": {
+                                "yield": 0.375
+                            },
+                            "CO": {
+                                "yield": 0.251
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_iepoxo2 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 2.7e-12,
+                        "B": 0,
+                        "C": 350.0,
+                        "reactants": {
+                            "IEPOXOO": {},
+                            "NO": {}
+                        },
+                        "products": {
+                            "HYAC": {
+                                "yield": 0.725
+                            },
+                            "GLYALD": {
+                                "yield": 0.275
+                            },
+                            "GLYX": {
+                                "yield": 0.275
+                            },
+                            "MGLY": {
+                                "yield": 0.275
+                            },
+                            "OH": {
+                                "yield": 0.125
+                            },
+                            "HO2": {
+                                "yield": 0.825
+                            },
+                            "CH2O": {
+                                "yield": 0.375
+                            },
+                            "CO": {
+                                "yield": 0.251
+                            },
+                            "NO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_iepoxo2 (2)",
+                        "type": "ARRHENIUS",
+                        "A": 2.6e-12,
+                        "B": 0,
+                        "C": 610.0,
+                        "reactants": {
+                            "MVK": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "MVKO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "ol_mvk (1)",
+                        "type": "ARRHENIUS",
+                        "A": 8.5e-16,
+                        "B": 0,
+                        "C": -1520.0,
+                        "reactants": {
+                            "MVK": {},
+                            "O3": {}
+                        },
+                        "products": {
+                            "OH": {
+                                "yield": 0.202
+                            },
+                            "HO2": {
+                                "yield": 0.202
+                            },
+                            "CO": {
+                                "yield": 0.535
+                            },
+                            "CH3CHO": {
+                                "yield": 0.05
+                            },
+                            "MGLY": {
+                                "yield": 0.95
+                            },
+                            "CH2O": {
+                                "yield": 0.05
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_mvko2 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 2.7e-12,
+                        "B": 0,
+                        "C": 350.0,
+                        "reactants": {
+                            "MVKO2": {},
+                            "NO": {}
+                        },
+                        "products": {
+                            "NO2": {
+                                "yield": 0.965
+                            },
+                            "HO2": {
+                                "yield": 0.249
+                            },
+                            "CH2O": {
+                                "yield": 0.249
+                            },
+                            "CH3CO3": {
+                                "yield": 0.716
+                            },
+                            "GLYALD": {
+                                "yield": 0.716
+                            },
+                            "MGLY": {
+                                "yield": 0.249
+                            },
+                            "MVKN": {
+                                "yield": 0.035
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_mvko2 (2)",
+                        "type": "ARRHENIUS",
+                        "A": 1.82e-13,
+                        "B": 0,
+                        "C": 1300.0,
+                        "reactants": {
+                            "MVKO2": {},
+                            "HO2": {}
+                        },
+                        "products": {
+                            "MVKOOH": {
+                                "yield": 0.38
+                            },
+                            "OH": {
+                                "yield": 0.62
+                            },
+                            "GLYALD": {
+                                "yield": 0.37
+                            },
+                            "CH3CO3": {
+                                "yield": 0.37
+                            },
+                            "MEK": {
+                                "yield": 0.13
+                            },
+                            "HO2": {
+                                "yield": 0.25
+                            },
+                            "CH2O": {
+                                "yield": 0.12
+                            },
+                            "MGLY": {
+                                "yield": 0.12
+                            },
+                            "RCHO": {
+                                "yield": 0.033
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_mvko2 (3)",
+                        "type": "ARRHENIUS",
+                        "A": 8.37e-14,
+                        "B": 0,
+                        "C": 0,
+                        "reactants": {
+                            "MVKO2": {},
+                            "CH3O2": {}
+                        },
+                        "products": {
+                            "HO2": {
+                                "yield": 0.5
+                            },
+                            "CH2O": {
+                                "yield": 0.75
+                            },
+                            "CH3CO3": {
+                                "yield": 0.36
+                            },
+                            "GLYALD": {
+                                "yield": 0.36
+                            },
+                            "MGLY": {
+                                "yield": 0.14
+                            },
+                            "MEK": {
+                                "yield": 0.25
+                            },
+                            "CH3OH": {
+                                "yield": 0.25
+                            },
+                            "ROH": {
+                                "yield": 0.25
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_mvko2 (4)",
+                        "type": "ARRHENIUS",
+                        "A": 8.78e-12,
+                        "B": 0,
+                        "C": 200.0,
+                        "reactants": {
+                            "MVKOOH": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "OH": {
+                                "yield": 0.791
+                            },
+                            "MEK": {
+                                "yield": 0.791
+                            },
+                            "MVKO2": {
+                                "yield": 0.209
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_mvko2 (5)",
+                        "type": "ARRHENIUS",
+                        "A": 1.6e-12,
+                        "B": 0,
+                        "C": 0,
+                        "reactants": {
+                            "MVKN": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "NO3": {
+                                "yield": 1.0
+                            },
+                            "MGLY": {
+                                "yield": 0.65
+                            },
+                            "CH2O": {
+                                "yield": 0.35
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_mvko2 (6)",
+                        "type": "ARRHENIUS",
+                        "A": 8e-12,
+                        "B": 0,
+                        "C": 380.0,
+                        "reactants": {
+                            "MACR": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "MAO3": {
+                                "yield": 0.45
+                            },
+                            "MACRO2": {
+                                "yield": 0.55
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_mvko2 (7)",
+                        "type": "ARRHENIUS",
+                        "A": 29000000.0,
+                        "B": 0,
+                        "C": -5297.0,
+                        "reactants": {
+                            "MACRO2": {}
+                        },
+                        "products": {
+                            "CO": {
+                                "yield": 1.0
+                            },
+                            "HYAC": {
+                                "yield": 1.0
+                            },
+                            "OH": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "ol_macr (1)",
+                        "type": "ARRHENIUS",
+                        "A": 1.4e-15,
+                        "B": 0,
+                        "C": -2100.0,
+                        "reactants": {
+                            "MACR": {},
+                            "O3": {}
+                        },
+                        "products": {
+                            "OH": {
+                                "yield": 0.261
+                            },
+                            "HO2": {
+                                "yield": 0.202
+                            },
+                            "CO": {
+                                "yield": 0.569
+                            },
+                            "MGLY": {
+                                "yield": 0.88
+                            },
+                            "CH2O": {
+                                "yield": 0.12
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "ol_macr (2)",
+                        "type": "ARRHENIUS",
+                        "A": 3.4e-15,
+                        "B": 0,
+                        "C": 0,
+                        "reactants": {
+                            "MACR": {},
+                            "NO3": {}
+                        },
+                        "products": {
+                            "MAO3": {
+                                "yield": 1.0
+                            },
+                            "HNO3": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_macro2 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 2.7e-12,
+                        "B": 0,
+                        "C": 350.0,
+                        "reactants": {
+                            "MACRO2": {},
+                            "NO": {}
+                        },
+                        "products": {
+                            "NO2": {
+                                "yield": 0.97
+                            },
+                            "HO2": {
+                                "yield": 0.97
+                            },
+                            "HYAC": {
+                                "yield": 0.97
+                            },
+                            "CO": {
+                                "yield": 0.97
+                            },
+                            "MACRN": {
+                                "yield": 0.03
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_macro2 (2)",
+                        "type": "ARRHENIUS",
+                        "A": 1.82e-13,
+                        "B": 0,
+                        "C": 1300.0,
+                        "reactants": {
+                            "MACRO2": {},
+                            "HO2": {}
+                        },
+                        "products": {
+                            "MACROOH": {
+                                "yield": 0.42
+                            },
+                            "OH": {
+                                "yield": 0.58
+                            },
+                            "HYAC": {
+                                "yield": 0.58
+                            },
+                            "CO": {
+                                "yield": 0.58
+                            },
+                            "HO2": {
+                                "yield": 0.58
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_macro2 (3)",
+                        "type": "ARRHENIUS",
+                        "A": 8.37e-14,
+                        "B": 0,
+                        "C": 0,
+                        "reactants": {
+                            "MACRO2": {},
+                            "CH3O2": {}
+                        },
+                        "products": {
+                            "HYAC": {
+                                "yield": 0.595
+                            },
+                            "MGLY": {
+                                "yield": 0.255
+                            },
+                            "CO": {
+                                "yield": 0.595
+                            },
+                            "CH2O": {
+                                "yield": 1.255
+                            },
+                            "HO2": {
+                                "yield": 1.7
+                            },
+                            "ROH": {
+                                "yield": 0.15
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_macro2 (4)",
+                        "type": "ARRHENIUS",
+                        "A": 1.84e-12,
+                        "B": 0,
+                        "C": 200.0,
+                        "reactants": {
+                            "MACROOH": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "MACRO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_macro2 (5)",
+                        "type": "ARRHENIUS",
+                        "A": 4.4e-12,
+                        "B": 0,
+                        "C": 380.0,
+                        "reactants": {
+                            "MACROOH": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "HYAC": {
+                                "yield": 1.0
+                            },
+                            "OH": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_macro2 (6)",
+                        "type": "ARRHENIUS",
+                        "A": 3.2e-12,
+                        "B": 0,
+                        "C": 0,
+                        "reactants": {
+                            "MACRN": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "MACRNO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_macrno2 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 2.7e-12,
+                        "B": 0,
+                        "C": 350.0,
+                        "reactants": {
+                            "MACRNO2": {},
+                            "NO": {}
+                        },
+                        "products": {
+                            "CH2O": {
+                                "yield": 0.08
+                            },
+                            "NO3": {
+                                "yield": 0.15
+                            },
+                            "MGLY": {
+                                "yield": 0.07
+                            },
+                            "HYAC": {
+                                "yield": 0.85
+                            },
+                            "NO2": {
+                                "yield": 1.85
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_macrno2 (2)",
+                        "type": "ARRHENIUS",
+                        "A": 1.82e-13,
+                        "B": 0,
+                        "C": 1300.0,
+                        "reactants": {
+                            "MACRNO2": {},
+                            "HO2": {}
+                        },
+                        "products": {
+                            "CH2O": {
+                                "yield": 0.08
+                            },
+                            "NO3": {
+                                "yield": 0.15
+                            },
+                            "MGLY": {
+                                "yield": 0.07
+                            },
+                            "HYAC": {
+                                "yield": 0.85
+                            },
+                            "NO2": {
+                                "yield": 0.85
+                            },
+                            "OH": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_mao3 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 6.7e-12,
+                        "B": 0,
+                        "C": 340.0,
+                        "reactants": {
+                            "MAO3": {},
+                            "NO": {}
+                        },
+                        "products": {
+                            "NO2": {
+                                "yield": 1.0
+                            },
+                            "CH2O": {
+                                "yield": 0.5
+                            },
+                            "CO": {
+                                "yield": 0.5
+                            },
+                            "CH3O2": {
+                                "yield": 0.5
+                            },
+                            "CH3CO3": {
+                                "yield": 0.5
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_mao3 (2)",
+                        "type": "ARRHENIUS",
+                        "A": 4.3e-13,
+                        "B": 0,
+                        "C": 1040.0,
+                        "reactants": {
+                            "MAO3": {},
+                            "HO2": {}
+                        },
+                        "products": {
+                            "OH": {
+                                "yield": 0.44
+                            },
+                            "O3": {
+                                "yield": 0.15
+                            },
+                            "CH2O": {
+                                "yield": 0.59
+                            },
+                            "CH3O2": {
+                                "yield": 0.39
+                            },
+                            "MAOP": {
+                                "yield": 0.41
+                            },
+                            "CO": {
+                                "yield": 0.39
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_mao3 (3)",
+                        "type": "ARRHENIUS",
+                        "A": 1.68e-12,
+                        "B": 0,
+                        "C": 500.0,
+                        "reactants": {
+                            "MAO3": {},
+                            "CH3O2": {}
+                        },
+                        "products": {
+                            "CH2O": {
+                                "yield": 1.0
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            },
+                            "CH3CO3": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_mao3 (4)",
+                        "type": "ARRHENIUS",
+                        "A": 1.87e-13,
+                        "B": 0,
+                        "C": 500.0,
+                        "reactants": {
+                            "MAO3": {},
+                            "CH3O2": {}
+                        },
+                        "products": {
+                            "CH2O": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "type": "TROE",
+                        "k0_A": 9e-28,
+                        "k0_B": -8.9,
+                        "kinf_A": 7.7e-12,
+                        "kinf_B": -0.2,
+                        "Fc": 0.6,
+                        "reactants": {
+                            "MAO3": {},
+                            "NO2": {},
+                            "M": {}
+                        },
+                        "products": {
+                            "MPAN": {
+                                "yield": 1.0
+                            },
+                            "M": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "umpan_b (2)",
+                        "type": "ARRHENIUS",
+                        "A": 6.13e-13,
+                        "B": 0,
+                        "C": 200.0,
+                        "reactants": {
+                            "MAOP": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "MAO3": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "umpan_b (3)",
+                        "type": "ARRHENIUS",
+                        "A": 3.6e-12,
+                        "B": 0,
+                        "C": 380.0,
+                        "reactants": {
+                            "MAOP": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "MAOPO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "umpan_b (4)",
+                        "type": "ARRHENIUS",
+                        "A": 1.82e-13,
+                        "B": 0,
+                        "C": 1300.0,
+                        "reactants": {
+                            "MAOPO2": {},
+                            "HO2": {}
+                        },
+                        "products": {
+                            "HYAC": {
+                                "yield": 1.0
+                            },
+                            "OH": {
+                                "yield": 2.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "umpan_b (5)",
+                        "type": "ARRHENIUS",
+                        "A": 8.37e-14,
+                        "B": 0,
+                        "C": 0,
+                        "reactants": {
+                            "MAOPO2": {},
+                            "CH3O2": {}
+                        },
+                        "products": {
+                            "HYAC": {
+                                "yield": 0.7
+                            },
+                            "OH": {
+                                "yield": 0.7
+                            },
+                            "CH2O": {
+                                "yield": 1.0
+                            },
+                            "HO2": {
+                                "yield": 0.7
+                            },
+                            "C2H5OH": {
+                                "yield": 0.3
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_maopo2 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 2.35e-12,
+                        "B": 0,
+                        "C": 350.0,
+                        "reactants": {
+                            "MAOPO2": {},
+                            "NO": {}
+                        },
+                        "products": {
+                            "HYAC": {
+                                "yield": 1.0
+                            },
+                            "OH": {
+                                "yield": 1.0
+                            },
+                            "NO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_maopo2 (2)",
+                        "type": "ARRHENIUS",
+                        "A": 3.5e-13,
+                        "B": 0,
+                        "C": 350.0,
+                        "reactants": {
+                            "MAOPO2": {},
+                            "NO": {}
+                        },
+                        "products": {
+                            "HNO3": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_ato2 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 2.8e-12,
+                        "B": 0,
+                        "C": 300.0,
+                        "reactants": {
+                            "ATO2": {},
+                            "NO": {}
+                        },
+                        "products": {
+                            "NO2": {
+                                "yield": 0.96
+                            },
+                            "CH2O": {
+                                "yield": 0.96
+                            },
+                            "CH3CO3": {
+                                "yield": 0.96
+                            },
+                            "R4N2": {
+                                "yield": 0.04
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_ato2 (2)",
+                        "type": "ARRHENIUS",
+                        "A": 8.6e-13,
+                        "B": 0,
+                        "C": 700.0,
+                        "reactants": {
+                            "ATO2": {},
+                            "HO2": {}
+                        },
+                        "products": {
+                            "CH3CO3": {
+                                "yield": 0.15
+                            },
+                            "OH": {
+                                "yield": 0.15
+                            },
+                            "CH2O": {
+                                "yield": 0.15
+                            },
+                            "ATOOH": {
+                                "yield": 0.85
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_ato2 (3)",
+                        "type": "ARRHENIUS",
+                        "A": 2.66e-12,
+                        "B": 0,
+                        "C": 200.0,
+                        "reactants": {
+                            "ATOOH": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "ATO2": {
+                                "yield": 1.0
+                            },
+                            "H2O": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_ato2 (4)",
+                        "type": "ARRHENIUS",
+                        "A": 1.14e-12,
+                        "B": 0,
+                        "C": 200.0,
+                        "reactants": {
+                            "ATOOH": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "MGLY": {
+                                "yield": 1.0
+                            },
+                            "OH": {
+                                "yield": 1.0
+                            },
+                            "H2O": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_ato2 (5)",
+                        "type": "ARRHENIUS",
+                        "A": 2.9e-11,
+                        "B": 0,
+                        "C": 0,
+                        "reactants": {
+                            "MPAN": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "HYAC": {
+                                "yield": 1.0
+                            },
+                            "CO": {
+                                "yield": 1.0
+                            },
+                            "NO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_ato2 (6)",
+                        "type": "ARRHENIUS",
+                        "A": 1e-11,
+                        "B": 0,
+                        "C": 0,
+                        "reactants": {
+                            "GLYALD": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "CH2O": {
+                                "yield": 0.8
+                            },
+                            "CO": {
+                                "yield": 0.8
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            },
+                            "GLYX": {
+                                "yield": 0.2
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_ato2 (7)",
+                        "type": "ARRHENIUS",
+                        "A": 3.1e-12,
+                        "B": 0,
+                        "C": 340.0,
+                        "reactants": {
+                            "GLYX": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "HO2": {
+                                "yield": 1.0
+                            },
+                            "CO": {
+                                "yield": 2.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_ato2 (8)",
+                        "type": "ARRHENIUS",
+                        "A": 4e-16,
+                        "B": 0,
+                        "C": 0,
+                        "reactants": {
+                            "GLYX": {},
+                            "NO3": {}
+                        },
+                        "products": {
+                            "HNO3": {
+                                "yield": 1.0
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            },
+                            "CO": {
+                                "yield": 2.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_ato2 (9)",
+                        "type": "ARRHENIUS",
+                        "A": 1.5e-11,
+                        "B": 0,
+                        "C": 0,
+                        "reactants": {
+                            "MGLY": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "CH3CO3": {
+                                "yield": 1.0
+                            },
+                            "CO": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_ato2 (10)",
+                        "type": "ARRHENIUS",
+                        "A": 1.4e-12,
+                        "B": 0,
+                        "C": -1860.0,
+                        "reactants": {
+                            "MGLY": {},
+                            "NO3": {}
+                        },
+                        "products": {
+                            "HNO3": {
+                                "yield": 1.0
+                            },
+                            "CO": {
+                                "yield": 1.0
+                            },
+                            "CH3CO3": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_ato2 (11)",
+                        "type": "ARRHENIUS",
+                        "A": 1.6e-12,
+                        "B": 0,
+                        "C": 305.0,
+                        "reactants": {
+                            "HYAC": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "MGLY": {
+                                "yield": 1.0
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_ato2 (12)",
+                        "type": "ARRHENIUS",
+                        "A": 3.3e-12,
+                        "B": 0,
+                        "C": -450.0,
+                        "reactants": {
+                            "ISOP": {},
+                            "NO3": {}
+                        },
+                        "products": {
+                            "INO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_ino2 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 2.7e-12,
+                        "B": 0,
+                        "C": 350.0,
+                        "reactants": {
+                            "INO2": {},
+                            "NO": {}
+                        },
+                        "products": {
+                            "ISN1": {
+                                "yield": 0.7
+                            },
+                            "MVK": {
+                                "yield": 0.035
+                            },
+                            "MACR": {
+                                "yield": 0.035
+                            },
+                            "CH2O": {
+                                "yield": 0.07
+                            },
+                            "HO2": {
+                                "yield": 0.8
+                            },
+                            "NO2": {
+                                "yield": 1.3
+                            },
+                            "RCHO": {
+                                "yield": 0.23
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_ino2 (2)",
+                        "type": "ARRHENIUS",
+                        "A": 2.3e-12,
+                        "B": 0,
+                        "C": 0,
+                        "reactants": {
+                            "INO2": {},
+                            "NO3": {}
+                        },
+                        "products": {
+                            "ISN1": {
+                                "yield": 0.7
+                            },
+                            "MVK": {
+                                "yield": 0.035
+                            },
+                            "MACR": {
+                                "yield": 0.035
+                            },
+                            "CH2O": {
+                                "yield": 0.07
+                            },
+                            "HO2": {
+                                "yield": 0.8
+                            },
+                            "NO2": {
+                                "yield": 1.3
+                            },
+                            "RCHO": {
+                                "yield": 0.23
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_ino2 (3)",
+                        "type": "ARRHENIUS",
+                        "A": 2.06e-13,
+                        "B": 0,
+                        "C": 1300.0,
+                        "reactants": {
+                            "INO2": {},
+                            "HO2": {}
+                        },
+                        "products": {
+                            "MVK": {
+                                "yield": 0.22
+                            },
+                            "MACR": {
+                                "yield": 0.015
+                            },
+                            "OH": {
+                                "yield": 0.235
+                            },
+                            "NO2": {
+                                "yield": 0.235
+                            },
+                            "CH2O": {
+                                "yield": 0.235
+                            },
+                            "INPN": {
+                                "yield": 0.765
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_ino2 (4)",
+                        "type": "ARRHENIUS",
+                        "A": 1.9e-11,
+                        "B": 0,
+                        "C": 390.0,
+                        "reactants": {
+                            "INPN": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "OH": {
+                                "yield": 1.0
+                            },
+                            "NO2": {
+                                "yield": 1.0
+                            },
+                            "MEK": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_ino2 (5)",
+                        "type": "ARRHENIUS",
+                        "A": 5.18e-12,
+                        "B": 0,
+                        "C": 200.0,
+                        "reactants": {
+                            "INPN": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "INO2": {
+                                "yield": 0.36
+                            },
+                            "R4N2": {
+                                "yield": 0.64
+                            },
+                            "OH": {
+                                "yield": 0.64
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_ino2 (6)",
+                        "type": "ARRHENIUS",
+                        "A": 3.15e-13,
+                        "B": 0,
+                        "C": -448.0,
+                        "reactants": {
+                            "ISN1": {},
+                            "NO3": {}
+                        },
+                        "products": {
+                            "ISNOOA": {
+                                "yield": 1.0
+                            },
+                            "HNO3": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_ino2 (7)",
+                        "type": "ARRHENIUS",
+                        "A": 4e-12,
+                        "B": 0,
+                        "C": 0,
+                        "reactants": {
+                            "ISNOOA": {},
+                            "NO3": {}
+                        },
+                        "products": {
+                            "NO2": {
+                                "yield": 1.0
+                            },
+                            "R4N2": {
+                                "yield": 1.0
+                            },
+                            "CO": {
+                                "yield": 1.0
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_ino2 (8)",
+                        "type": "ARRHENIUS",
+                        "A": 6.7e-12,
+                        "B": 0,
+                        "C": 340.0,
+                        "reactants": {
+                            "ISNOOA": {},
+                            "NO": {}
+                        },
+                        "products": {
+                            "NO2": {
+                                "yield": 1.0
+                            },
+                            "R4N2": {
+                                "yield": 1.0
+                            },
+                            "CO": {
+                                "yield": 1.0
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_ino2 (9)",
+                        "type": "ARRHENIUS",
+                        "A": 5.2e-13,
+                        "B": 0,
+                        "C": 980.0,
+                        "reactants": {
+                            "ISNOOA": {},
+                            "HO2": {}
+                        },
+                        "products": {
+                            "RCOOH": {
+                                "yield": 0.25
+                            },
+                            "O3": {
+                                "yield": 0.25
+                            },
+                            "HNO3": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_ino2 (10)",
+                        "type": "ARRHENIUS",
+                        "A": 4.15e-15,
+                        "B": 0,
+                        "C": -1520.0,
+                        "reactants": {
+                            "ISN1": {},
+                            "O3": {}
+                        },
+                        "products": {
+                            "R4N2": {
+                                "yield": 0.3
+                            },
+                            "CO": {
+                                "yield": 0.45
+                            },
+                            "OH": {
+                                "yield": 0.7
+                            },
+                            "HO2": {
+                                "yield": 0.45
+                            },
+                            "GLYX": {
+                                "yield": 0.7
+                            },
+                            "NO2": {
+                                "yield": 0.7
+                            },
+                            "MGLY": {
+                                "yield": 0.7
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_ino2 (11)",
+                        "type": "ARRHENIUS",
+                        "A": 7.48e-12,
+                        "B": 0,
+                        "C": 410.0,
+                        "reactants": {
+                            "ISN1": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "ISNOOA": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_ino2 (12)",
+                        "type": "ARRHENIUS",
+                        "A": 1.6e-12,
+                        "B": 0,
+                        "C": 0,
+                        "reactants": {
+                            "R4N2": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "R4N1": {
+                                "yield": 1.0
+                            },
+                            "H2O": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "op_ino2 (13)",
+                        "type": "ARRHENIUS",
+                        "A": 1.2e-11,
+                        "B": 0,
+                        "C": 440.0,
+                        "reactants": {
+                            "C10H16": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "ISOPO2": {
+                                "yield": 1.64
+                            },
+                            "CH3COCH3": {
+                                "yield": 0.1
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "ol_c10h16 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 5.3e-16,
+                        "B": 0,
+                        "C": -530.0,
+                        "reactants": {
+                            "C10H16": {},
+                            "O3": {}
+                        },
+                        "products": {
+                            "MACR": {
+                                "yield": 1.122
+                            },
+                            "MVK": {
+                                "yield": 0.442
+                            },
+                            "O": {
+                                "yield": 0.765
+                            },
+                            "OH": {
+                                "yield": 1.156
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "ol_c10h16 (2)",
+                        "type": "ARRHENIUS",
+                        "A": 1.2e-12,
+                        "B": 0,
+                        "C": 490.0,
+                        "reactants": {
+                            "C10H16": {},
+                            "NO3": {}
+                        },
+                        "products": {
+                            "ISOPO2": {
+                                "yield": 1.7
+                            },
+                            "NO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "type": "TROE",
+                        "k0_A": 3.3e-31,
+                        "k0_B": -4.3,
+                        "kinf_A": 1.6e-12,
+                        "kinf_B": -0.0,
+                        "Fc": 0.6,
+                        "reactants": {
+                            "SO2": {},
+                            "OH": {},
+                            "M": {}
+                        },
+                        "products": {
+                            "SO4": {
+                                "yield": 1.0
+                            },
+                            "M": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "so2h (6)",
+                        "type": "ARRHENIUS",
+                        "A": 1.2e-11,
+                        "B": 0,
+                        "C": -280.0,
+                        "reactants": {
+                            "DMS": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "SO2": {
+                                "yield": 1.0
+                            },
+                            "CH2O": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "uoh_dms (2)",
+                        "type": "ARRHENIUS",
+                        "A": 1.9e-13,
+                        "B": 0,
+                        "C": 530.0,
+                        "reactants": {
+                            "DMS": {},
+                            "NO3": {}
+                        },
+                        "products": {
+                            "SO2": {
+                                "yield": 1.0
+                            },
+                            "HNO3": {
+                                "yield": 1.0
+                            },
+                            "CH2O": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "nh3h (2)",
+                        "type": "ARRHENIUS",
+                        "A": 1.7e-12,
+                        "B": 0,
+                        "C": -710.0,
+                        "reactants": {
+                            "NH3": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "H2O": {
+                                "yield": 1.0
+                            },
+                            "HNO3": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "strat13 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 1.4e-10,
+                        "B": 0,
+                        "C": -470.0,
+                        "reactants": {
+                            "H": {},
+                            "O3": {}
+                        },
+                        "products": {
+                            "OH": {
+                                "yield": 1.0
+                            },
+                            "O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "type": "TROE",
+                        "k0_A": 4.4e-32,
+                        "k0_B": -1.3,
+                        "kinf_A": 4.7e-11,
+                        "kinf_B": -0.2,
+                        "Fc": 0.6,
+                        "reactants": {
+                            "H": {},
+                            "O2": {},
+                            "M": {}
+                        },
+                        "products": {
+                            "HO2": {
+                                "yield": 1.0
+                            },
+                            "M": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "strat20 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 2.3e-11,
+                        "B": 0,
+                        "C": -200.0,
+                        "reactants": {
+                            "Cl": {},
+                            "O3": {}
+                        },
+                        "products": {
+                            "ClO": {
+                                "yield": 1.0
+                            },
+                            "O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "strat21 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 2.8e-11,
+                        "B": 0,
+                        "C": 85.0,
+                        "reactants": {
+                            "O": {},
+                            "ClO": {}
+                        },
+                        "products": {
+                            "Cl": {
+                                "yield": 1.0
+                            },
+                            "O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "strat22 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 6.4e-12,
+                        "B": 0,
+                        "C": 290.0,
+                        "reactants": {
+                            "ClO": {},
+                            "NO": {}
+                        },
+                        "products": {
+                            "NO2": {
+                                "yield": 1.0
+                            },
+                            "Cl": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "type": "TROE",
+                        "k0_A": 1.8e-31,
+                        "k0_B": -3.4,
+                        "kinf_A": 1.5e-11,
+                        "kinf_B": -1.9,
+                        "Fc": 0.6,
+                        "reactants": {
+                            "ClO": {},
+                            "NO2": {},
+                            "M": {}
+                        },
+                        "products": {
+                            "ClONO2": {
+                                "yield": 1.0
+                            },
+                            "M": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "strat24 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 2.9e-12,
+                        "B": 0,
+                        "C": -800.0,
+                        "reactants": {
+                            "O": {},
+                            "ClONO2": {}
+                        },
+                        "products": {
+                            "ClO": {
+                                "yield": 1.0
+                            },
+                            "NO3": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "strat25 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 7.3e-12,
+                        "B": 0,
+                        "C": -1280.0,
+                        "reactants": {
+                            "Cl": {},
+                            "CH4": {}
+                        },
+                        "products": {
+                            "HCl": {
+                                "yield": 1.0
+                            },
+                            "CH3O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "strat26 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 2.6e-12,
+                        "B": 0,
+                        "C": -350.0,
+                        "reactants": {
+                            "OH": {},
+                            "HCl": {}
+                        },
+                        "products": {
+                            "H2O": {
+                                "yield": 1.0
+                            },
+                            "Cl": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "strat27 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 1.8e-11,
+                        "B": 0,
+                        "C": 170.0,
+                        "reactants": {
+                            "Cl": {},
+                            "HO2": {}
+                        },
+                        "products": {
+                            "HCl": {
+                                "yield": 1.0
+                            },
+                            "O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "strat28 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 2.7e-12,
+                        "B": 0,
+                        "C": 220.0,
+                        "reactants": {
+                            "ClO": {},
+                            "HO2": {}
+                        },
+                        "products": {
+                            "HOCl": {
+                                "yield": 1.0
+                            },
+                            "O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "strat29 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 7.4e-12,
+                        "B": 0,
+                        "C": 270.0,
+                        "reactants": {
+                            "ClO": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "HO2": {
+                                "yield": 1.0
+                            },
+                            "Cl": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "strat33 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 8.1e-11,
+                        "B": 0,
+                        "C": -30.0,
+                        "reactants": {
+                            "CH2O": {},
+                            "Cl": {}
+                        },
+                        "products": {
+                            "HCl": {
+                                "yield": 1.0
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            },
+                            "CO": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "type": "TROE",
+                        "k0_A": 6.9e-31,
+                        "k0_B": -1.0,
+                        "kinf_A": 2.6e-11,
+                        "kinf_B": -0.0,
+                        "Fc": 0.6,
+                        "reactants": {
+                            "OH": {},
+                            "M": {}
+                        },
+                        "products": {
+                            "H2O2": {
+                                "yield": 1.0
+                            },
+                            "M": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "type": "TROE",
+                        "k0_A": 1.6e-32,
+                        "k0_B": -4.5,
+                        "kinf_A": 2e-12,
+                        "kinf_B": -2.4,
+                        "Fc": 0.6,
+                        "reactants": {
+                            "ClO": {},
+                            "M": {}
+                        },
+                        "products": {
+                            "Cl2O2": {
+                                "yield": 1.0
+                            },
+                            "M": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "strat39 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 1.7e-11,
+                        "B": 0,
+                        "C": -800.0,
+                        "reactants": {
+                            "Br": {},
+                            "O3": {}
+                        },
+                        "products": {
+                            "BrO": {
+                                "yield": 1.0
+                            },
+                            "O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "type": "TROE",
+                        "k0_A": 5.2e-31,
+                        "k0_B": -3.2,
+                        "kinf_A": 6.9e-12,
+                        "kinf_B": -2.9,
+                        "Fc": 0.6,
+                        "reactants": {
+                            "BrO": {},
+                            "NO2": {},
+                            "M": {}
+                        },
+                        "products": {
+                            "BrONO2": {
+                                "yield": 1.0
+                            },
+                            "M": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "strat41 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 2.3e-12,
+                        "B": 0,
+                        "C": 260.0,
+                        "reactants": {
+                            "BrO": {},
+                            "ClO": {}
+                        },
+                        "products": {
+                            "Br": {
+                                "yield": 1.0
+                            },
+                            "Cl": {
+                                "yield": 1.0
+                            },
+                            "O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "strat42 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 4.5e-12,
+                        "B": 0,
+                        "C": 460.0,
+                        "reactants": {
+                            "BrO": {},
+                            "HO2": {}
+                        },
+                        "products": {
+                            "HOBr": {
+                                "yield": 1.0
+                            },
+                            "O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "strat43 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 8.8e-12,
+                        "B": 0,
+                        "C": 260.0,
+                        "reactants": {
+                            "BrO": {},
+                            "NO": {}
+                        },
+                        "products": {
+                            "Br": {
+                                "yield": 1.0
+                            },
+                            "NO2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "strat44 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 1.2e-10,
+                        "B": 0,
+                        "C": -430.0,
+                        "reactants": {
+                            "HOBr": {},
+                            "O": {}
+                        },
+                        "products": {
+                            "BrO": {
+                                "yield": 1.0
+                            },
+                            "OH": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "strat45 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 4.8e-12,
+                        "B": 0,
+                        "C": -310.0,
+                        "reactants": {
+                            "Br": {},
+                            "HO2": {}
+                        },
+                        "products": {
+                            "HBr": {
+                                "yield": 1.0
+                            },
+                            "O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "strat46 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 1.7e-11,
+                        "B": 0,
+                        "C": -800.0,
+                        "reactants": {
+                            "Br": {},
+                            "CH2O": {}
+                        },
+                        "products": {
+                            "HBr": {
+                                "yield": 1.0
+                            },
+                            "HO2": {
+                                "yield": 1.0
+                            },
+                            "CO": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "strat47 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 5.5e-12,
+                        "B": 0,
+                        "C": 200.0,
+                        "reactants": {
+                            "HBr": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "Br": {
+                                "yield": 1.0
+                            },
+                            "H2O": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "strat48 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 4.1e-13,
+                        "B": 0,
+                        "C": 290.0,
+                        "reactants": {
+                            "BrO": {},
+                            "ClO": {}
+                        },
+                        "products": {
+                            "BrCl": {
+                                "yield": 1.0
+                            },
+                            "O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "strat69 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 6e-13,
+                        "B": 0,
+                        "C": 230.0,
+                        "reactants": {
+                            "ClO": {},
+                            "OH": {}
+                        },
+                        "products": {
+                            "HCl": {
+                                "yield": 1.0
+                            },
+                            "O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "strat58 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 4.5e-14,
+                        "B": 0,
+                        "C": -1260.0,
+                        "reactants": {
+                            "NO2": {},
+                            "NO3": {}
+                        },
+                        "products": {
+                            "NO": {
+                                "yield": 1.0
+                            },
+                            "NO2": {
+                                "yield": 1.0
+                            },
+                            "O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "strat59 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 8.5e-13,
+                        "B": 0,
+                        "C": -2450.0,
+                        "reactants": {
+                            "NO3": {}
+                        },
+                        "products": {
+                            "NO2": {
+                                "yield": 2.0
+                            },
+                            "O2": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "type": "TROE",
+                        "k0_A": 9e-32,
+                        "k0_B": -1.5,
+                        "kinf_A": 3e-11,
+                        "kinf_B": -0.0,
+                        "Fc": 0.6,
+                        "reactants": {
+                            "NO": {},
+                            "O": {},
+                            "M": {}
+                        },
+                        "products": {
+                            "NO2": {
+                                "yield": 1.0
+                            },
+                            "M": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                    {
+                        "MUSICA name": "strat71 (1)",
+                        "type": "ARRHENIUS",
+                        "A": 5.8e-12,
+                        "B": 0,
+                        "C": 220.0,
+                        "reactants": {
+                            "N": {},
+                            "NO2": {}
+                        },
+                        "products": {
+                            "N2O": {
+                                "yield": 1.0
+                            },
+                            "O": {
+                                "yield": 1.0
+                            }
+                        }
+                    },
+                {   
+                    "MUSICA name": "LCH4",
+                    "type": "FIRST_ORDER_LOSS",
+                    "species": "LCH4",
+                    "scaling factor": 3.17e-8
+                }
+            ]
+        }
+    ]
+}

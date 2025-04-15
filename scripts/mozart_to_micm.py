@@ -267,8 +267,10 @@ def parse_equation_set(label, lines):
             else:
                 if len(reactant) > 0:
                     x, M = parse_term(reactant)
-                    equation_dict['reactants'][M] = {'qty': x}
-
+                    if x > 1:
+                        equation_dict['reactants'][M] = {'qty': x}
+                    else:
+                        equation_dict['reactants'][M] = { }
         for product in products:
             if len(product) > 0:
                 x, M = parse_term(product.replace('*', ' '))

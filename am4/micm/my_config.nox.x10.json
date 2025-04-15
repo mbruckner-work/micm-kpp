@@ -1,0 +1,36 @@
+{
+    "box model options": {
+        "grid": "box",
+        "chemistry time step [sec]": 60.0,
+        "output time step [sec]": 60.0,
+        "simulation length [hr]": 1.0
+    },
+    "environmental conditions": {
+        "temperature": {
+            "initial value [K]": 299.55169
+        },
+        "pressure": {
+            "initial value [Pa]": 99255.610
+        }
+    },
+    "evolving conditions": {},
+    "initial conditions": {
+        "filepaths": [
+            "nox.x10.initial_conditions.csv"
+        ]
+    },
+    "model components": [
+        {
+            "type": "CAMP",
+            "configuration file": "AM4/config.json",
+            "override species": {
+                "M": {
+                    "mixing ratio mol mol-1": 1.0
+                }
+            },
+            "suppress output": {
+                "M": {}
+            }
+        }
+    ]
+}

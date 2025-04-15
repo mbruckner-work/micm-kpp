@@ -1,0 +1,90 @@
+"camp-data:\n- name: M\n  tracer type: CONSTANT\n  type: CHEM_SPEC\n- name: N2\n \
+    \ tracer type: CONSTANT\n  type: CHEM_SPEC\n- name: O2\n  tracer type: CONSTANT\n\
+    \  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name: O3\n  type: CHEM_SPEC\n\
+    - absolute tolerance: 1.0e-12\n  name: O\n  type: CHEM_SPEC\n- __formula: O\n\
+    \  absolute tolerance: 1.0e-12\n  name: O1D\n  type: CHEM_SPEC\n- absolute tolerance:\
+    \ 1.0e-12\n  name: N2O\n  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name:\
+    \ N\n  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name: 'NO'\n  type: CHEM_SPEC\n\
+    - absolute tolerance: 1.0e-12\n  name: NO2\n  type: CHEM_SPEC\n- absolute tolerance:\
+    \ 1.0e-12\n  name: NO3\n  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name:\
+    \ HNO3\n  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name: HO2NO2\n  type:\
+    \ CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name: N2O5\n  type: CHEM_SPEC\n\
+    - absolute tolerance: 1.0e-12\n  name: CH4\n  type: CHEM_SPEC\n- absolute tolerance:\
+    \ 1.0e-12\n  name: CH3O2\n  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n \
+    \ name: CH3OOH\n  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name: CH2O\n\
+    \  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name: CO\n  type: CHEM_SPEC\n\
+    - absolute tolerance: 1.0e-12\n  name: OH\n  type: CHEM_SPEC\n- absolute tolerance:\
+    \ 1.0e-12\n  name: HO2\n  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name:\
+    \ H2O2\n  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name: C3H6\n  type:\
+    \ CHEM_SPEC\n- __formula: C5H8\n  absolute tolerance: 1.0e-12\n  name: ISOP\n\
+    \  type: CHEM_SPEC\n- __formula: C3H6OHO2\n  absolute tolerance: 1.0e-12\n  name:\
+    \ PO2\n  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name: CH3CHO\n  type:\
+    \ CHEM_SPEC\n- __formula: C3H6OHOOH\n  absolute tolerance: 1.0e-12\n  name: POOH\n\
+    \  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name: CH3CO3\n  type: CHEM_SPEC\n\
+    - absolute tolerance: 1.0e-12\n  name: CH3COOOH\n  type: CHEM_SPEC\n- __formula:\
+    \ CH3CO3NO2\n  absolute tolerance: 1.0e-12\n  name: PAN\n  type: CHEM_SPEC\n-\
+    \ absolute tolerance: 1.0e-12\n  name: C2H6\n  type: CHEM_SPEC\n- absolute tolerance:\
+    \ 1.0e-12\n  name: C2H4\n  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name:\
+    \ C4H10\n  type: CHEM_SPEC\n- __formula: CH2CCH3CO3NO2\n  absolute tolerance:\
+    \ 1.0e-12\n  name: MPAN\n  type: CHEM_SPEC\n- __formula: HOCH2COOCH3CHCH2\n  absolute\
+    \ tolerance: 1.0e-12\n  name: ISOPO2\n  type: CHEM_SPEC\n- __formula: CH2CHCOCH3\n\
+    \  absolute tolerance: 1.0e-12\n  name: MVK\n  type: CHEM_SPEC\n- __formula: CH2CCH3CHO\n\
+    \  absolute tolerance: 1.0e-12\n  name: MACR\n  type: CHEM_SPEC\n- __formula:\
+    \ CH3COCHO2CH2OH\n  absolute tolerance: 1.0e-12\n  name: MACRO2\n  type: CHEM_SPEC\n\
+    - __formula: CH3COCHOOHCH2OH\n  absolute tolerance: 1.0e-12\n  name: MACROOH\n\
+    \  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name: C2H5O2\n  type: CHEM_SPEC\n\
+    - absolute tolerance: 1.0e-12\n  name: C2H5OOH\n  type: CHEM_SPEC\n- absolute\
+    \ tolerance: 1.0e-12\n  name: C10H16\n  type: CHEM_SPEC\n- absolute tolerance:\
+    \ 1.0e-12\n  name: C3H8\n  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name:\
+    \ C3H7O2\n  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name: C3H7OOH\n\
+    \  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name: CH3COCH3\n  type: CHEM_SPEC\n\
+    - absolute tolerance: 1.0e-12\n  name: CH3OH\n  type: CHEM_SPEC\n- absolute tolerance:\
+    \ 1.0e-12\n  name: C2H5OH\n  type: CHEM_SPEC\n- __formula: HOCH2CHO\n  absolute\
+    \ tolerance: 1.0e-12\n  name: GLYALD\n  type: CHEM_SPEC\n- __formula: CH3COCH2OH\n\
+    \  absolute tolerance: 1.0e-12\n  name: HYAC\n  type: CHEM_SPEC\n- __formula:\
+    \ HOCH2CH2O2\n  absolute tolerance: 1.0e-12\n  name: EO2\n  type: CHEM_SPEC\n\
+    - __formula: HOCH2CH2O\n  absolute tolerance: 1.0e-12\n  name: EO\n  type: CHEM_SPEC\n\
+    - __formula: HOCH2COOHCH3CHCH2\n  absolute tolerance: 1.0e-12\n  name: ISOPOOH\n\
+    \  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name: H2\n  type: CHEM_SPEC\n\
+    - absolute tolerance: 1.0e-12\n  name: SO2\n  type: CHEM_SPEC\n- absolute tolerance:\
+    \ 1.0e-12\n  name: SO4\n  type: CHEM_SPEC\n- __formula: CH3SCH3\n  absolute tolerance:\
+    \ 1.0e-12\n  name: DMS\n  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name:\
+    \ NH3\n  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name: NH4NO3\n  type:\
+    \ CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name: NH4\n  type: CHEM_SPEC\n-\
+    \ absolute tolerance: 1.0e-12\n  name: HCl\n  type: CHEM_SPEC\n- absolute tolerance:\
+    \ 1.0e-12\n  name: HOCl\n  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name:\
+    \ ClONO2\n  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name: Cl\n  type:\
+    \ CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name: ClO\n  type: CHEM_SPEC\n-\
+    \ absolute tolerance: 1.0e-12\n  name: Cl2O2\n  type: CHEM_SPEC\n- absolute tolerance:\
+    \ 1.0e-12\n  name: Cl2\n  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name:\
+    \ HOBr\n  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name: HBr\n  type:\
+    \ CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name: BrONO2\n  type: CHEM_SPEC\n\
+    - absolute tolerance: 1.0e-12\n  name: Br\n  type: CHEM_SPEC\n- absolute tolerance:\
+    \ 1.0e-12\n  name: BrO\n  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name:\
+    \ BrCl\n  type: CHEM_SPEC\n- __formula: CH4\n  absolute tolerance: 1.0e-12\n \
+    \ name: LCH4\n  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name: H\n  type:\
+    \ CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name: H2O\n  type: CHEM_SPEC\n-\
+    \ __formula: C3H7OH\n  absolute tolerance: 1.0e-12\n  name: ROH\n  type: CHEM_SPEC\n\
+    - __formula: C2H5CHO\n  absolute tolerance: 1.0e-12\n  name: RCHO\n  type: CHEM_SPEC\n\
+    - __formula: HOCH2C(CH3)=CHCH2ONO2\n  absolute tolerance: 1.0e-12\n  name: ISOPNB\n\
+    \  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name: ISOPNBO2\n  type: CHEM_SPEC\n\
+    - __formula: HC(O)C(CH3)=CHCOOH\n  absolute tolerance: 1.0e-12\n  name: MACRN\n\
+    \  type: CHEM_SPEC\n- __formula: HC(O)C(CH3)=CHCOOH\n  absolute tolerance: 1.0e-12\n\
+    \  name: MVKN\n  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name: R4N2\n\
+    \  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name: MEK\n  type: CHEM_SPEC\n\
+    - absolute tolerance: 1.0e-12\n  name: R4N1\n  type: CHEM_SPEC\n- absolute tolerance:\
+    \ 1.0e-12\n  name: IEPOX\n  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n \
+    \ name: IEPOXOO\n  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name: GLYX\n\
+    \  type: CHEM_SPEC\n- __formula: CH3COCHO\n  absolute tolerance: 1.0e-12\n  name:\
+    \ MGLY\n  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name: MVKO2\n  type:\
+    \ CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name: MVKOOH\n  type: CHEM_SPEC\n\
+    - absolute tolerance: 1.0e-12\n  name: MACRNO2\n  type: CHEM_SPEC\n- absolute\
+    \ tolerance: 1.0e-12\n  name: MAO3\n  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n\
+    \  name: MAOP\n  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name: MAOPO2\n\
+    \  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name: ATO2\n  type: CHEM_SPEC\n\
+    - absolute tolerance: 1.0e-12\n  name: ATOOH\n  type: CHEM_SPEC\n- absolute tolerance:\
+    \ 1.0e-12\n  name: INO2\n  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name:\
+    \ INPN\n  type: CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name: ISNOOA\n  type:\
+    \ CHEM_SPEC\n- absolute tolerance: 1.0e-12\n  name: ISN1\n  type: CHEM_SPEC\n\
+    - __formula: O3\n  absolute tolerance: 1.0e-12\n  name: O3S\n  type: CHEM_SPEC\n\
+    - __formula: O3\n  absolute tolerance: 1.0e-12\n  name: O3S_E90\n  type: CHEM_SPEC\n"

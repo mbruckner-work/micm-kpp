@@ -1,0 +1,565 @@
+{
+    "camp-data": [
+        {
+            "name": "M",
+            "type": "CHEM_SPEC",
+            "tracer type": "THIRD_BODY"
+        },
+        {
+            "name": "N2",
+            "type": "CHEM_SPEC",
+            "tracer type": "CONSTANT"
+        },
+        {
+            "name": "O2",
+            "type": "CHEM_SPEC",
+            "tracer type": "CONSTANT"
+        },
+        {
+            "name": "O3",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "O",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "O1D",
+            "type": "CHEM_SPEC",
+            "__formula": "O",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "N2O",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "N",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "NO",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "NO2",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12,
+            "molecular weight [kg mol-1]": 0.0460055,
+            "diffusion coefficient [m2 s-1]": 1000.0
+        },
+        {
+            "name": "NO3",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12,
+            "diffusion coefficient [m2 s-1]": 1000.0,
+            "molecular weight [kg mol-1]": 0.0620049
+        },
+        {
+            "name": "HNO3",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "HO2NO2",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "N2O5",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12,
+            "molecular weight [kg mol-1]": 0.10801,
+            "diffusion coefficient [m2 s-1]": 1000.0
+        },
+        {
+            "name": "CH4",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "CH3O2",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "CH3OOH",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "CH2O",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "CO",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "OH",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "HO2",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12,
+            "molecular weight [kg mol-1]": 0.0330062,
+            "diffusion coefficient [m2 s-1]": 1000.0
+        },
+        {
+            "name": "H2O2",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "C3H6",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "ISOP",
+            "type": "CHEM_SPEC",
+            "__formula": "C5H8",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "PO2",
+            "type": "CHEM_SPEC",
+            "__formula": "C3H6OHO2",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "CH3CHO",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "POOH",
+            "type": "CHEM_SPEC",
+            "__formula": "C3H6OHOOH",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "CH3CO3",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "CH3COOOH",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "PAN",
+            "type": "CHEM_SPEC",
+            "__formula": "CH3CO3NO2",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "C2H6",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "C2H4",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "C4H10",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "MPAN",
+            "type": "CHEM_SPEC",
+            "__formula": "CH2CCH3CO3NO2",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "ISOPO2",
+            "type": "CHEM_SPEC",
+            "__formula": "HOCH2COOCH3CHCH2",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "MVK",
+            "type": "CHEM_SPEC",
+            "__formula": "CH2CHCOCH3",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "MACR",
+            "type": "CHEM_SPEC",
+            "__formula": "CH2CCH3CHO",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "MACRO2",
+            "type": "CHEM_SPEC",
+            "__formula": "CH3COCHO2CH2OH",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "MACROOH",
+            "type": "CHEM_SPEC",
+            "__formula": "CH3COCHOOHCH2OH",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "C2H5O2",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "C2H5OOH",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "C10H16",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "C3H8",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "C3H7O2",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "C3H7OOH",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "CH3COCH3",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "CH3OH",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "C2H5OH",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "GLYALD",
+            "type": "CHEM_SPEC",
+            "__formula": "HOCH2CHO",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "HYAC",
+            "type": "CHEM_SPEC",
+            "__formula": "CH3COCH2OH",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "EO2",
+            "type": "CHEM_SPEC",
+            "__formula": "HOCH2CH2O2",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "EO",
+            "type": "CHEM_SPEC",
+            "__formula": "HOCH2CH2O",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "ISOPOOH",
+            "type": "CHEM_SPEC",
+            "__formula": "HOCH2COOHCH3CHCH2",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "H2",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "SO2",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12,
+            "molecular weight [kg mol-1]": 0.0640648,
+            "diffusion coefficient [m2 s-1]": 1000.0
+        },
+        {
+            "name": "SO4",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "DMS",
+            "type": "CHEM_SPEC",
+            "__formula": "CH3SCH3",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "NH3",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12,
+            "molecular weight [kg mol-1]": 0.017031,
+            "diffusion coefficient [m2 s-1]": 1000.0
+        },
+        {
+            "name": "NH4NO3",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "NH4",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "HCl",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "HOCl",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "ClONO2",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "Cl",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "ClO",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "Cl2O2",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "Cl2",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "HOBr",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "HBr",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "BrONO2",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "Br",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "BrO",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "BrCl",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "LCH4",
+            "type": "CHEM_SPEC",
+            "__formula": "CH4",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "H",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "H2O",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "ROH",
+            "type": "CHEM_SPEC",
+            "__formula": "C3H7OH",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "RCHO",
+            "type": "CHEM_SPEC",
+            "__formula": "C2H5CHO",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "ISOPNB",
+            "type": "CHEM_SPEC",
+            "__formula": "HOCH2C(CH3)=CHCH2ONO2",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "ISOPNBO2",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "MACRN",
+            "type": "CHEM_SPEC",
+            "__formula": "HC(O)C(CH3)=CHCOOH",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "MVKN",
+            "type": "CHEM_SPEC",
+            "__formula": "HC(O)C(CH3)=CHCOOH",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "R4N2",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "MEK",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "R4N1",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "IEPOX",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "IEPOXOO",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "GLYX",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "MGLY",
+            "type": "CHEM_SPEC",
+            "__formula": "CH3COCHO",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "MVKO2",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "MVKOOH",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "MACRNO2",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "MAO3",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "MAOP",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "MAOPO2",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "ATO2",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "ATOOH",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "INO2",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "INPN",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "ISNOOA",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "ISN1",
+            "type": "CHEM_SPEC",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "O3S",
+            "type": "CHEM_SPEC",
+            "__formula": "O3",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "O3S_E90",
+            "type": "CHEM_SPEC",
+            "__formula": "O3",
+            "absolute tolerance": 1e-12
+        },
+        {
+            "name": "CO2",
+            "type": "CHEM_SPEC"
+        },
+        {
+            "name": "RCOOH",
+            "type": "CHEM_SPEC"
+        }
+    ]
+}

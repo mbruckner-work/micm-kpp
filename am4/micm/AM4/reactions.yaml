@@ -1,0 +1,785 @@
+"camp-data:\n- name: AM4\n  reactions:\n  - - MUSICA name: jo2 (1)\n      products:\n\
+    \        O:\n          yield: 2.0\n      reactants:\n        O2: {}\n      type:\
+    \ PHOTOLYSIS\n  - - MUSICA name: jo1d (1)\n      products:\n        O1D:\n   \
+    \       yield: 1.0\n        O2:\n          yield: 1.0\n      reactants:\n    \
+    \    O3: {}\n      type: PHOTOLYSIS\n  - - MUSICA name: jo3p (1)\n      products:\n\
+    \        O:\n          yield: 1.0\n        O2:\n          yield: 1.0\n      reactants:\n\
+    \        O3: {}\n      type: PHOTOLYSIS\n  - - MUSICA name: jn2o (1)\n      products:\n\
+    \        N2:\n          yield: 1.0\n        O1D:\n          yield: 1.0\n     \
+    \ reactants:\n        N2O: {}\n      type: PHOTOLYSIS\n  - - MUSICA name: jno\
+    \ (1)\n      products:\n        N:\n          yield: 1.0\n        O:\n       \
+    \   yield: 1.0\n      reactants:\n        'NO': {}\n      type: PHOTOLYSIS\n \
+    \ - - MUSICA name: jno2 (1)\n      products:\n        'NO':\n          yield:\
+    \ 1.0\n        O:\n          yield: 1.0\n      reactants:\n        NO2: {}\n \
+    \     type: PHOTOLYSIS\n  - - MUSICA name: jn2o5 (1)\n      products:\n      \
+    \  NO2:\n          yield: 1.0\n        NO3:\n          yield: 1.0\n      reactants:\n\
+    \        N2O5: {}\n      type: PHOTOLYSIS\n  - - MUSICA name: jhno3 (1)\n    \
+    \  products:\n        NO2:\n          yield: 1.0\n        OH:\n          yield:\
+    \ 1.0\n      reactants:\n        HNO3: {}\n      type: PHOTOLYSIS\n  - - MUSICA\
+    \ name: jno3 (1)\n      products:\n        'NO':\n          yield: 0.11\n    \
+    \    NO2:\n          yield: 0.89\n        O:\n          yield: 0.89\n      reactants:\n\
+    \        NO3: {}\n      type: PHOTOLYSIS\n  - - MUSICA name: jho2no2 (1)\n   \
+    \   products:\n        HO2:\n          yield: 1.0\n        NO2:\n          yield:\
+    \ 1.0\n      reactants:\n        HO2NO2: {}\n      type: PHOTOLYSIS\n  - - MUSICA\
+    \ name: jch3ooh (1)\n      products:\n        CH2O:\n          yield: 1.0\n  \
+    \      HO2:\n          yield: 1.0\n        OH:\n          yield: 1.0\n      reactants:\n\
+    \        CH3OOH: {}\n      type: PHOTOLYSIS\n  - - MUSICA name: jch2o_a (1)\n\
+    \      products:\n        CO:\n          yield: 1.0\n        H:\n          yield:\
+    \ 1.0\n        HO2:\n          yield: 1.0\n      reactants:\n        CH2O: {}\n\
+    \      type: PHOTOLYSIS\n  - - MUSICA name: jch2o_b (1)\n      products:\n   \
+    \     CO:\n          yield: 1.0\n        H2:\n          yield: 1.0\n      reactants:\n\
+    \        CH2O: {}\n      type: PHOTOLYSIS\n  - - MUSICA name: jh2o (1)\n     \
+    \ products:\n        H:\n          yield: 1.0\n        OH:\n          yield: 1.0\n\
+    \      reactants:\n        H2O: {}\n      type: PHOTOLYSIS\n  - - MUSICA name:\
+    \ jh2o2 (1)\n      products:\n        OH:\n          yield: 2.0\n      reactants:\n\
+    \        H2O2: {}\n      type: PHOTOLYSIS\n  - - MUSICA name: jch3cho (1)\n  \
+    \    products:\n        CH3O2:\n          yield: 1.0\n        CO:\n          yield:\
+    \ 1.0\n        HO2:\n          yield: 1.0\n      reactants:\n        CH3CHO: {}\n\
+    \      type: PHOTOLYSIS\n  - - MUSICA name: jpooh (1)\n      products:\n     \
+    \   CH2O:\n          yield: 1.0\n        CH3CHO:\n          yield: 1.0\n     \
+    \   HO2:\n          yield: 1.0\n        OH:\n          yield: 1.0\n      reactants:\n\
+    \        POOH: {}\n      type: PHOTOLYSIS\n  - - MUSICA name: jch3co3h (1)\n \
+    \     products:\n        CH3O2:\n          yield: 1.0\n        CO2:\n        \
+    \  yield: 1.0\n        OH:\n          yield: 1.0\n      reactants:\n        CH3COOOH:\
+    \ {}\n      type: PHOTOLYSIS\n  - - MUSICA name: jpan (1)\n      products:\n \
+    \       CH3CO3:\n          yield: 0.6\n        CH3O2:\n          yield: 0.4\n\
+    \        NO2:\n          yield: 0.6\n        NO3:\n          yield: 0.4\n    \
+    \  reactants:\n        PAN: {}\n      type: PHOTOLYSIS\n  - - MUSICA name: jmpan\
+    \ (1)\n      products:\n        MAO3:\n          yield: 1.0\n        NO2:\n  \
+    \        yield: 1.0\n      reactants:\n        MPAN: {}\n      type: PHOTOLYSIS\n\
+    \  - - MUSICA name: jmacr_a (1)\n      products:\n        CH2O:\n          yield:\
+    \ 1.34\n        CH3CO3:\n          yield: 1.34\n        HO2:\n          yield:\
+    \ 1.34\n        MAO3:\n          yield: 0.66\n      reactants:\n        MACR:\
+    \ {}\n      type: PHOTOLYSIS\n  - - MUSICA name: jmacr_b (1)\n      products:\n\
+    \        CO:\n          yield: 1.34\n        OH:\n          yield: 0.66\n    \
+    \  reactants:\n        MACR: {}\n      type: PHOTOLYSIS\n  - - MUSICA name: jmvk\
+    \ (1)\n      products:\n        C3H6:\n          yield: 0.7\n        CH3CO3:\n\
+    \          yield: 0.3\n        CH3O2:\n          yield: 0.3\n        CO:\n   \
+    \       yield: 0.7\n      reactants:\n        MVK: {}\n      type: PHOTOLYSIS\n\
+    \  - - MUSICA name: jc2h5ooh (1)\n      products:\n        CH3CHO:\n         \
+    \ yield: 1.0\n        HO2:\n          yield: 1.0\n        OH:\n          yield:\
+    \ 1.0\n      reactants:\n        C2H5OOH: {}\n      type: PHOTOLYSIS\n  - - MUSICA\
+    \ name: jc3h7ooh (1)\n      products:\n        CH3COCH3:\n          yield: 0.82\n\
+    \        HO2:\n          yield: 1.0\n        OH:\n          yield: 1.0\n     \
+    \ reactants:\n        C3H7OOH: {}\n      type: PHOTOLYSIS\n  - - MUSICA name:\
+    \ jacet (1)\n      products:\n        CH3CO3:\n          yield: 1.0\n        CH3O2:\n\
+    \          yield: 1.0\n      reactants:\n        CH3COCH3: {}\n      type: PHOTOLYSIS\n\
+    \  - - MUSICA name: jmgly (1)\n      products:\n        CH3CO3:\n          yield:\
+    \ 1.0\n        CO:\n          yield: 1.0\n        HO2:\n          yield: 1.0\n\
+    \      reactants:\n        MGLY: {}\n      type: PHOTOLYSIS\n  - - MUSICA name:\
+    \ jglyoxal (1)\n      products:\n        CO:\n          yield: 2.0\n        HO2:\n\
+    \          yield: 2.0\n      reactants:\n        GLYX: {}\n      type: PHOTOLYSIS\n\
+    \  - - MUSICA name: jisopooh (1)\n      products:\n        CH2O:\n          yield:\
+    \ 0.69\n        HO2:\n          yield: 1.0\n        MACR:\n          yield: 0.288\n\
+    \        MVK:\n          yield: 0.402\n      reactants:\n        ISOPOOH: {}\n\
+    \      type: PHOTOLYSIS\n  - - MUSICA name: jhyac (1)\n      products:\n     \
+    \   CH2O:\n          yield: 1.0\n        CH3CO3:\n          yield: 1.0\n     \
+    \   HO2:\n          yield: 1.0\n      reactants:\n        HYAC: {}\n      type:\
+    \ PHOTOLYSIS\n  - - MUSICA name: jglyald (1)\n      products:\n        CH2O:\n\
+    \          yield: 1.0\n        CO:\n          yield: 1.0\n        HO2:\n     \
+    \     yield: 2.0\n      reactants:\n        GLYALD: {}\n      type: PHOTOLYSIS\n\
+    \  - - MUSICA name: jisopnb (1)\n      products:\n        HO2:\n          yield:\
+    \ 1.0\n        NO2:\n          yield: 1.0\n        RCHO:\n          yield: 1.0\n\
+    \      reactants:\n        ISOPNB: {}\n      type: PHOTOLYSIS\n  - - MUSICA name:\
+    \ jmacrn (1)\n      products:\n        CH2O:\n          yield: 0.5\n        CO:\n\
+    \          yield: 0.5\n        HO2:\n          yield: 1.0\n        HYAC:\n   \
+    \       yield: 1.0\n        MGLY:\n          yield: 1.0\n        NO2:\n      \
+    \    yield: 1.0\n      reactants:\n        MACRN: {}\n      type: PHOTOLYSIS\n\
+    \  - - MUSICA name: jmvkn (1)\n      products:\n        CH3CO3:\n          yield:\
+    \ 1.0\n        GLYALD:\n          yield: 1.0\n        NO2:\n          yield: 1.0\n\
+    \      reactants:\n        MVKN: {}\n      type: PHOTOLYSIS\n  - - MUSICA name:\
+    \ jr4n2 (1)\n      products:\n        CH3CHO:\n          yield: 0.32\n       \
+    \ CH3COCH3:\n          yield: 0.32\n        CH3O2:\n          yield: 0.18\n  \
+    \      HO2:\n          yield: 0.27\n        MEK:\n          yield: 0.19\n    \
+    \    NO2:\n          yield: 1.0\n        RCHO:\n          yield: 0.13\n      reactants:\n\
+    \        R4N2: {}\n      type: PHOTOLYSIS\n  - - MUSICA name: jclono2 (1)\n  \
+    \    products:\n        Cl:\n          yield: 1.0\n        NO3:\n          yield:\
+    \ 1.0\n      reactants:\n        ClONO2: {}\n      type: PHOTOLYSIS\n  - - MUSICA\
+    \ name: jhocl (1)\n      products:\n        Cl:\n          yield: 1.0\n      \
+    \  OH:\n          yield: 1.0\n      reactants:\n        HOCl: {}\n      type:\
+    \ PHOTOLYSIS\n  - - MUSICA name: jcl2o2 (1)\n      products:\n        Cl:\n  \
+    \        yield: 2.0\n        O2:\n          yield: 1.0\n      reactants:\n   \
+    \     Cl2O2: {}\n      type: PHOTOLYSIS\n  - - MUSICA name: jbrono2 (1)\n    \
+    \  products:\n        Br:\n          yield: 1.0\n        NO3:\n          yield:\
+    \ 1.0\n      reactants:\n        BrONO2: {}\n      type: PHOTOLYSIS\n  - - MUSICA\
+    \ name: jhobr (1)\n      products:\n        Br:\n          yield: 1.0\n      \
+    \  OH:\n          yield: 1.0\n      reactants:\n        HOBr: {}\n      type:\
+    \ PHOTOLYSIS\n  - - MUSICA name: jbrcl (1)\n      products:\n        Br:\n   \
+    \       yield: 1.0\n        Cl:\n          yield: 1.0\n      reactants:\n    \
+    \    BrCl: {}\n      type: PHOTOLYSIS\n  - - MUSICA name: jbro (1)\n      products:\n\
+    \        Br:\n          yield: 1.0\n        O:\n          yield: 1.0\n      reactants:\n\
+    \        BrO: {}\n      type: PHOTOLYSIS\n  - - MUSICA name: jcl2 (1)\n      products:\n\
+    \        Cl:\n          yield: 2.0\n      reactants:\n        Cl2: {}\n      type:\
+    \ PHOTOLYSIS\n  - - A: 8.0e-12\n      B: 0\n      C: -2060.0\n      MUSICA name:\
+    \ uo_o2 (2)\n      products:\n        O2:\n          yield: 2.0\n      reactants:\n\
+    \        O: {}\n        O3: {}\n      type: ARRHENIUS\n    - A: 1.5e-11\n    \
+    \  B: 0\n      C: -3600.0\n      MUSICA name: uo_o2 (3)\n      products:\n   \
+    \     'NO':\n          yield: 1.0\n        O:\n          yield: 1.0\n      reactants:\n\
+    \        N: {}\n        O2: {}\n      type: ARRHENIUS\n    - A: 2.1e-11\n    \
+    \  B: 0\n      C: 100.0\n      MUSICA name: uo_o2 (4)\n      products:\n     \
+    \   N2:\n          yield: 1.0\n        O:\n          yield: 1.0\n      reactants:\n\
+    \        N: {}\n        'NO': {}\n      type: ARRHENIUS\n  - - Fc: 0.6\n     \
+    \ MUSICA name: uco_oha (1)\n      k0_A: 5.9e-33\n      k0_B: -1.4\n      kinf_A:\
+    \ 1.1e-12\n      kinf_B: 1.3\n      products:\n        CO2:\n          yield:\
+    \ 1.0\n        HO2:\n          yield: 1.0\n      reactants:\n        CO: {}\n\
+    \        M: {}\n        OH: {}\n      type: TROE\n  - - Fc: 0.6\n      MUSICA\
+    \ name: uco_ohb (1)\n      k0_A: 1.5e-13\n      k0_B: 0.6\n      kinf_A: 2100000000.0\n\
+    \      kinf_B: 6.1\n      products:\n        CO2:\n          yield: 1.0\n    \
+    \    H:\n          yield: 1.0\n      reactants:\n        CO: {}\n        OH: {}\n\
+    \      type: TROE\n    - A: 1.2e-10\n      B: 0\n      C: 0\n      MUSICA name:\
+    \ uco_ohb (2)\n      products:\n        HO2:\n          yield: 1.0\n        OH:\n\
+    \          yield: 1.0\n      reactants:\n        H2: {}\n        O1D: {}\n   \
+    \   type: ARRHENIUS\n    - A: 2.2e-11\n      B: 0\n      C: 120.0\n      MUSICA\
+    \ name: uco_ohb (3)\n      products:\n        HO2:\n          yield: 1.0\n   \
+    \     O2:\n          yield: 1.0\n      reactants:\n        O: {}\n        OH:\
+    \ {}\n      type: ARRHENIUS\n    - A: 1.8e-11\n      B: 0\n      C: 180.0\n  \
+    \    MUSICA name: uco_ohb (4)\n      products:\n        H:\n          yield: 1.0\n\
+    \        O2:\n          yield: 1.0\n      reactants:\n        O: {}\n        OH:\
+    \ {}\n      type: ARRHENIUS\n    - A: 3.0e-11\n      B: 0\n      C: 200.0\n  \
+    \    MUSICA name: uco_ohb (5)\n      products:\n        O2:\n          yield:\
+    \ 1.0\n        OH:\n          yield: 1.0\n      reactants:\n        HO2: {}\n\
+    \        O: {}\n      type: ARRHENIUS\n  - - A: 1.7e-12\n      B: 0\n      C:\
+    \ -940.0\n      MUSICA name: ol_oh (1)\n      products:\n        HO2:\n      \
+    \    yield: 1.0\n        O2:\n          yield: 1.0\n      reactants:\n       \
+    \ O3: {}\n        OH: {}\n      type: ARRHENIUS\n  - - A: 1.0e-14\n      B: 0\n\
+    \      C: -490.0\n      MUSICA name: ol_ho2 (1)\n      products:\n        O2:\n\
+    \          yield: 2.0\n        OH:\n          yield: 1.0\n      reactants:\n \
+    \       HO2: {}\n        O3: {}\n      type: ARRHENIUS\n  - - A: 1.8e-12\n   \
+    \   B: 0\n      C: 0\n      MUSICA name: uho2_ho2 (2)\n      products:\n     \
+    \   H2O:\n          yield: 1.0\n        HO2:\n          yield: 1.0\n      reactants:\n\
+    \        H2O2: {}\n        OH: {}\n      type: ARRHENIUS\n    - A: 4.8e-11\n \
+    \     B: 0\n      C: 250.0\n      MUSICA name: uho2_ho2 (3)\n      products:\n\
+    \        H2O:\n          yield: 1.0\n        O2:\n          yield: 1.0\n     \
+    \ reactants:\n        HO2: {}\n        OH: {}\n      type: ARRHENIUS\n    - A:\
+    \ 1.8e-12\n      B: 0\n      C: 0\n      MUSICA name: uho2_ho2 (4)\n      products:\n\
+    \        H2O:\n          yield: 1.0\n        O:\n          yield: 1.0\n      reactants:\n\
+    \        OH: {}\n      type: ARRHENIUS\n    - A: 2.8e-12\n      B: 0\n      C:\
+    \ -1800.0\n      MUSICA name: uho2_ho2 (5)\n      products:\n        H2O:\n  \
+    \        yield: 1.0\n        HO2:\n          yield: 1.0\n      reactants:\n  \
+    \      H2: {}\n        OH: {}\n      type: ARRHENIUS\n  - - A: 2.15e-11\n    \
+    \  B: 0\n      C: 110.0\n      MUSICA name: o1d_n2 (1)\n      products:\n    \
+    \    N2:\n          yield: 1.0\n        O:\n          yield: 1.0\n      reactants:\n\
+    \        N2: {}\n        O1D: {}\n      type: ARRHENIUS\n  - - A: 3.3e-11\n  \
+    \    B: 0\n      C: 55.0\n      MUSICA name: o1d_o2 (1)\n      products:\n   \
+    \     O:\n          yield: 1.0\n        O2:\n          yield: 1.0\n      reactants:\n\
+    \        O1D: {}\n        O2: {}\n      type: ARRHENIUS\n  - - A: 1.63e-10\n \
+    \     B: 0\n      C: 60.0\n      MUSICA name: ol_o1d (1)\n      products:\n  \
+    \      OH:\n          yield: 2.0\n      reactants:\n        H2O: {}\n        O1D:\
+    \ {}\n      type: ARRHENIUS\n    - A: 7.25e-11\n      B: 0\n      C: 20.0\n  \
+    \    MUSICA name: ol_o1d (2)\n      products:\n        'NO':\n          yield:\
+    \ 2.0\n      reactants:\n        N2O: {}\n        O1D: {}\n      type: ARRHENIUS\n\
+    \    - A: 4.63e-11\n      B: 0\n      C: 20.0\n      MUSICA name: ol_o1d (3)\n\
+    \      products:\n        N2:\n          yield: 1.0\n        O2:\n          yield:\
+    \ 1.0\n      reactants:\n        N2O: {}\n        O1D: {}\n      type: ARRHENIUS\n\
+    \  - - A: 3.3e-12\n      B: 0\n      C: 270.0\n      MUSICA name: op_ho2 (1)\n\
+    \      products:\n        NO2:\n          yield: 1.0\n        OH:\n          yield:\
+    \ 1.0\n      reactants:\n        HO2: {}\n        'NO': {}\n      type: ARRHENIUS\n\
+    \    - A: 3.0e-12\n      B: 0\n      C: -1500.0\n      MUSICA name: op_ho2 (2)\n\
+    \      products:\n        NO2:\n          yield: 1.0\n        O2:\n          yield:\
+    \ 1.0\n      reactants:\n        'NO': {}\n        O3: {}\n      type: ARRHENIUS\n\
+    \    - A: 5.1e-12\n      B: 0\n      C: 210.0\n      MUSICA name: op_ho2 (3)\n\
+    \      products:\n        'NO':\n          yield: 1.0\n        O2:\n         \
+    \ yield: 1.0\n      reactants:\n        NO2: {}\n        O: {}\n      type: ARRHENIUS\n\
+    \    - A: 1.2e-13\n      B: 0\n      C: -2450.0\n      MUSICA name: op_ho2 (4)\n\
+    \      products:\n        NO3:\n          yield: 1.0\n        O2:\n          yield:\
+    \ 1.0\n      reactants:\n        NO2: {}\n        O3: {}\n      type: ARRHENIUS\n\
+    \    - A: 3.5e-12\n      B: 0\n      C: 0\n      MUSICA name: op_ho2 (5)\n   \
+    \   products:\n        NO2:\n          yield: 1.0\n        OH:\n          yield:\
+    \ 1.0\n      reactants:\n        HO2: {}\n        NO3: {}\n      type: ARRHENIUS\n\
+    \  - - Fc: 0.6\n      MUSICA name: uno2_no3 (1)\n      k0_A: 2.0e-30\n      k0_B:\
+    \ -4.4\n      kinf_A: 1.4e-12\n      kinf_B: -0.7\n      products:\n        M:\n\
+    \          yield: 1.0\n        N2O5:\n          yield: 1.0\n      reactants:\n\
+    \        M: {}\n        NO2: {}\n        NO3: {}\n      type: TROE\n  - - A: 0.0\n\
+    \      B: 0\n      C: 0\n      MUSICA name: un2o5 (2)\n      products:\n     \
+    \   HNO3:\n          yield: 2.0\n      reactants:\n        H2O: {}\n        N2O5:\
+    \ {}\n      type: ARRHENIUS\n  - - Fc: 0.6\n      MUSICA name: uoh_no2 (1)\n \
+    \     k0_A: 1.8e-30\n      k0_B: -3.0\n      kinf_A: 2.8e-11\n      kinf_B: -0.0\n\
+    \      products:\n        HNO3:\n          yield: 1.0\n        M:\n          yield:\
+    \ 1.0\n      reactants:\n        M: {}\n        NO2: {}\n        OH: {}\n    \
+    \  type: TROE\n  - - A: 1.5e-11\n      B: 0\n      C: 170.0\n      MUSICA name:\
+    \ uoh_hno3 (2)\n      products:\n        NO2:\n          yield: 2.0\n      reactants:\n\
+    \        'NO': {}\n        NO3: {}\n      type: ARRHENIUS\n  - - Fc: 0.6\n   \
+    \   MUSICA name: uho2_no2 (1)\n      k0_A: 2.0e-31\n      k0_B: -3.4\n      kinf_A:\
+    \ 2.9e-12\n      kinf_B: -1.1\n      products:\n        HO2NO2:\n          yield:\
+    \ 1.0\n        M:\n          yield: 1.0\n      reactants:\n        HO2: {}\n \
+    \       M: {}\n        NO2: {}\n      type: TROE\n    - A: 1.3e-12\n      B: 0\n\
+    \      C: 380.0\n      MUSICA name: uho2_no2 (2)\n      products:\n        H2O:\n\
+    \          yield: 1.0\n        NO2:\n          yield: 1.0\n        O2:\n     \
+    \     yield: 1.0\n      reactants:\n        HO2NO2: {}\n        OH: {}\n     \
+    \ type: ARRHENIUS\n  - - A: 2.45e-12\n      B: 0\n      C: -1775.0\n      MUSICA\
+    \ name: uhno4 (2)\n      products:\n        CH3O2:\n          yield: 1.0\n   \
+    \     H2O:\n          yield: 1.0\n        LCH4:\n          yield: 1.0\n      reactants:\n\
+    \        CH4: {}\n        OH: {}\n      type: ARRHENIUS\n    - A: 1.5e-10\n  \
+    \    B: 0\n      C: 0\n      MUSICA name: uhno4 (3)\n      products:\n       \
+    \ CH2O:\n          yield: 0.25\n        CH3O2:\n          yield: 0.75\n      \
+    \  H:\n          yield: 0.2\n        H2:\n          yield: 0.05\n        HO2:\n\
+    \          yield: 0.2\n        OH:\n          yield: 0.75\n      reactants:\n\
+    \        CH4: {}\n        O1D: {}\n      type: ARRHENIUS\n  - - A: 2.8e-12\n \
+    \     B: 0\n      C: 300.0\n      MUSICA name: op_mo2 (1)\n      products:\n \
+    \       CH2O:\n          yield: 1.0\n        HO2:\n          yield: 1.0\n    \
+    \    NO2:\n          yield: 1.0\n      reactants:\n        CH3O2: {}\n       \
+    \ 'NO': {}\n      type: ARRHENIUS\n    - A: 6.03e-13\n      B: 0\n      C: -453.0\n\
+    \      MUSICA name: op_mo2 (2)\n      products:\n        CH2O:\n          yield:\
+    \ 2.0\n        HO2:\n          yield: 2.0\n      reactants:\n        CH3O2: {}\n\
+    \      type: ARRHENIUS\n    - A: 2.3e-14\n      B: 0\n      C: 677.0\n      MUSICA\
+    \ name: op_mo2 (3)\n      products:\n        CH2O:\n          yield: 1.0\n   \
+    \     CH3OH:\n          yield: 1.0\n      reactants:\n        CH3O2: {}\n    \
+    \  type: ARRHENIUS\n    - A: 4.1e-13\n      B: 0\n      C: 750.0\n      MUSICA\
+    \ name: op_mo2 (4)\n      products:\n        CH3OOH:\n          yield: 1.0\n \
+    \       O2:\n          yield: 1.0\n      reactants:\n        CH3O2: {}\n     \
+    \   HO2: {}\n      type: ARRHENIUS\n    - A: 3.8e-12\n      B: 0\n      C: 200.0\n\
+    \      MUSICA name: op_mo2 (5)\n      products:\n        CH2O:\n          yield:\
+    \ 0.3\n        CH3O2:\n          yield: 0.7\n        H2O:\n          yield: 1.0\n\
+    \        OH:\n          yield: 0.3\n      reactants:\n        CH3OOH: {}\n   \
+    \     OH: {}\n      type: ARRHENIUS\n    - A: 3.4e-13\n      B: 0\n      C: -1900.0\n\
+    \      MUSICA name: op_mo2 (6)\n      products:\n        CO:\n          yield:\
+    \ 1.0\n        HNO3:\n          yield: 1.0\n        HO2:\n          yield: 1.0\n\
+    \      reactants:\n        CH2O: {}\n        NO3: {}\n      type: ARRHENIUS\n\
+    \    - A: 5.5e-12\n      B: 0\n      C: 125.0\n      MUSICA name: op_mo2 (7)\n\
+    \      products:\n        CO:\n          yield: 1.0\n        H2O:\n          yield:\
+    \ 1.0\n        HO2:\n          yield: 1.0\n      reactants:\n        CH2O: {}\n\
+    \        OH: {}\n      type: ARRHENIUS\n  - - Fc: 0.6\n      MUSICA name: uoh_c2h4\
+    \ (1)\n      k0_A: 1.0e-28\n      k0_B: -4.5\n      kinf_A: 7.5e-12\n      kinf_B:\
+    \ -0.85\n      products:\n        CH2O:\n          yield: 0.5\n        EO2:\n\
+    \          yield: 0.75\n        HO2:\n          yield: 0.25\n        M:\n    \
+    \      yield: 1.0\n      reactants:\n        C2H4: {}\n        M: {}\n       \
+    \ OH: {}\n      type: TROE\n  - - A: 4.2e-12\n      B: 0\n      C: 180.0\n   \
+    \   MUSICA name: op_eo2 (1)\n      products:\n        EO:\n          yield: 1.0\n\
+    \        NO2:\n          yield: 1.0\n      reactants:\n        EO2: {}\n     \
+    \   'NO': {}\n      type: ARRHENIUS\n    - A: 1.0e-14\n      B: 0\n      C: 0\n\
+    \      MUSICA name: op_eo2 (2)\n      products:\n        GLYALD:\n          yield:\
+    \ 1.0\n        HO2:\n          yield: 1.0\n      reactants:\n        EO: {}\n\
+    \        O2: {}\n      type: ARRHENIUS\n    - A: 160000000000.0\n      B: 0\n\
+    \      C: -4150.0\n      MUSICA name: op_eo2 (3)\n      products:\n        CH2O:\n\
+    \          yield: 2.0\n        HO2:\n          yield: 1.0\n      reactants:\n\
+    \        EO: {}\n      type: ARRHENIUS\n  - - A: 1.2e-14\n      B: 0\n      C:\
+    \ -2630.0\n      MUSICA name: ol_c2h4 (1)\n      products:\n        CH2O:\n  \
+    \        yield: 1.0\n        CO:\n          yield: 0.5\n        HO2:\n       \
+    \   yield: 0.12\n        OH:\n          yield: 0.12\n      reactants:\n      \
+    \  C2H4: {}\n        O3: {}\n      type: ARRHENIUS\n  - - Fc: 0.5\n      MUSICA\
+    \ name: uoh_c3h6 (1)\n      k0_A: 8.0e-27\n      k0_B: -3.5\n      kinf_A: 3.0e-11\n\
+    \      kinf_B: -0.0\n      products:\n        M:\n          yield: 1.0\n     \
+    \   PO2:\n          yield: 1.0\n      reactants:\n        C3H6: {}\n        M:\
+    \ {}\n        OH: {}\n      type: TROE\n  - - A: 5.5e-15\n      B: 0\n      C:\
+    \ -1880.0\n      MUSICA name: ol_c3h6 (1)\n      products:\n        CH2O:\n  \
+    \        yield: 0.58\n        CH3CHO:\n          yield: 0.4\n        CH3OH:\n\
+    \          yield: 0.036\n        CO:\n          yield: 0.42\n        HO2:\n  \
+    \        yield: 0.244\n        OH:\n          yield: 0.244\n      reactants:\n\
+    \        C3H6: {}\n        O3: {}\n      type: ARRHENIUS\n    - A: 4.6e-13\n \
+    \     B: 0\n      C: -1156.0\n      MUSICA name: ol_c3h6 (2)\n      products:\n\
+    \        R4N2:\n          yield: 1.0\n      reactants:\n        C3H6: {}\n   \
+    \     NO3: {}\n      type: ARRHENIUS\n  - - A: 2.7e-12\n      B: 0\n      C: 350.0\n\
+    \      MUSICA name: op_po2 (1)\n      products:\n        CH2O:\n          yield:\
+    \ 1.0\n        CH3CHO:\n          yield: 1.0\n        HO2:\n          yield: 1.0\n\
+    \        NO2:\n          yield: 1.0\n      reactants:\n        'NO': {}\n    \
+    \    PO2: {}\n      type: ARRHENIUS\n    - A: 7.5e-13\n      B: 0\n      C: 700.0\n\
+    \      MUSICA name: op_po2 (2)\n      products:\n        O2:\n          yield:\
+    \ 1.0\n        POOH:\n          yield: 1.0\n      reactants:\n        HO2: {}\n\
+    \        PO2: {}\n      type: ARRHENIUS\n    - A: 8.78e-12\n      B: 0\n     \
+    \ C: 200.0\n      MUSICA name: op_po2 (3)\n      products:\n        OH:\n    \
+    \      yield: 0.791\n        PO2:\n          yield: 0.209\n        RCHO:\n   \
+    \       yield: 0.791\n      reactants:\n        OH: {}\n        POOH: {}\n   \
+    \   type: ARRHENIUS\n    - A: 4.63e-12\n      B: 0\n      C: 350.0\n      MUSICA\
+    \ name: op_po2 (4)\n      products:\n        CH2O:\n          yield: 0.05\n  \
+    \      CH3CO3:\n          yield: 0.95\n        CO:\n          yield: 0.05\n  \
+    \      H2O:\n          yield: 1.0\n        HO2:\n          yield: 0.05\n     \
+    \ reactants:\n        CH3CHO: {}\n        OH: {}\n      type: ARRHENIUS\n    -\
+    \ A: 1.4e-12\n      B: 0\n      C: -1900.0\n      MUSICA name: op_po2 (5)\n  \
+    \    products:\n        CH3CO3:\n          yield: 1.0\n        HNO3:\n       \
+    \   yield: 1.0\n      reactants:\n        CH3CHO: {}\n        NO3: {}\n      type:\
+    \ ARRHENIUS\n  - - A: 8.1e-12\n      B: 0\n      C: 270.0\n      MUSICA name:\
+    \ op_ch3co3 (1)\n      products:\n        CH3O2:\n          yield: 1.0\n     \
+    \   CO2:\n          yield: 1.0\n        NO2:\n          yield: 1.0\n      reactants:\n\
+    \        CH3CO3: {}\n        'NO': {}\n      type: ARRHENIUS\n  - - Fc: 0.6\n\
+    \      MUSICA name: upan_f (1)\n      k0_A: 9.7e-29\n      k0_B: -5.6\n      kinf_A:\
+    \ 9.3e-12\n      kinf_B: -1.5\n      products:\n        M:\n          yield: 1.0\n\
+    \        PAN:\n          yield: 1.0\n      reactants:\n        CH3CO3: {}\n  \
+    \      M: {}\n        NO2: {}\n      type: TROE\n    - A: 5.2e-13\n      B: 0\n\
+    \      C: 980.0\n      MUSICA name: upan_f (2)\n      products:\n        CH3COOOH:\n\
+    \          yield: 0.41\n        CH3O2:\n          yield: 0.44\n        O3:\n \
+    \         yield: 0.15\n        OH:\n          yield: 0.44\n      reactants:\n\
+    \        CH3CO3: {}\n        HO2: {}\n      type: ARRHENIUS\n    - A: 2.0e-12\n\
+    \      B: 0\n      C: 500.0\n      MUSICA name: upan_f (3)\n      products:\n\
+    \        CH2O:\n          yield: 1.0\n        CH3O2:\n          yield: 0.9\n \
+    \       CO2:\n          yield: 0.9\n        HO2:\n          yield: 0.9\n     \
+    \ reactants:\n        CH3CO3: {}\n        CH3O2: {}\n      type: ARRHENIUS\n \
+    \   - A: 3.8e-12\n      B: 0\n      C: 200.0\n      MUSICA name: upan_f (4)\n\
+    \      products:\n        CH2O:\n          yield: 0.5\n        CH3CO3:\n     \
+    \     yield: 0.5\n        OH:\n          yield: 0.5\n      reactants:\n      \
+    \  CH3COOOH: {}\n        OH: {}\n      type: ARRHENIUS\n  - - A: 2.5e-12\n   \
+    \   B: 0\n      C: 500.0\n      MUSICA name: upan_b (2)\n      products:\n   \
+    \     CH3O2:\n          yield: 2.0\n        CO2:\n          yield: 2.0\n     \
+    \ reactants:\n        CH3CO3: {}\n      type: ARRHENIUS\n    - A: 7.66e-12\n \
+    \     B: 0\n      C: -1020.0\n      MUSICA name: upan_b (3)\n      products:\n\
+    \        C2H5O2:\n          yield: 1.0\n        H2O:\n          yield: 1.0\n \
+    \     reactants:\n        C2H6: {}\n        OH: {}\n      type: ARRHENIUS\n  -\
+    \ - A: 2.6e-12\n      B: 0\n      C: 365.0\n      MUSICA name: op_c2h5o2 (1)\n\
+    \      products:\n        CH3CHO:\n          yield: 1.0\n        HO2:\n      \
+    \    yield: 1.0\n        NO2:\n          yield: 1.0\n      reactants:\n      \
+    \  C2H5O2: {}\n        'NO': {}\n      type: ARRHENIUS\n    - A: 7.5e-13\n   \
+    \   B: 0\n      C: 700.0\n      MUSICA name: op_c2h5o2 (2)\n      products:\n\
+    \        C2H5OOH:\n          yield: 1.0\n        O2:\n          yield: 1.0\n \
+    \     reactants:\n        C2H5O2: {}\n        HO2: {}\n      type: ARRHENIUS\n\
+    \    - A: 3.0e-13\n      B: 0\n      C: 0\n      MUSICA name: op_c2h5o2 (3)\n\
+    \      products:\n        C2H5OH:\n          yield: 0.25\n        CH2O:\n    \
+    \      yield: 0.75\n        CH3CHO:\n          yield: 0.75\n        CH3OH:\n \
+    \         yield: 0.25\n        HO2:\n          yield: 1.0\n      reactants:\n\
+    \        C2H5O2: {}\n        CH3O2: {}\n      type: ARRHENIUS\n    - A: 4.1e-14\n\
+    \      B: 0\n      C: 0\n      MUSICA name: op_c2h5o2 (4)\n      products:\n \
+    \       CH3CHO:\n          yield: 2.0\n        HO2:\n          yield: 2.0\n  \
+    \    reactants:\n        C2H5O2: {}\n      type: ARRHENIUS\n    - A: 5.18e-12\n\
+    \      B: 0\n      C: 200.0\n      MUSICA name: op_c2h5o2 (5)\n      products:\n\
+    \        C2H5O2:\n          yield: 0.36\n        CH3CHO:\n          yield: 0.64\n\
+    \        OH:\n          yield: 0.64\n      reactants:\n        C2H5OOH: {}\n \
+    \       OH: {}\n      type: ARRHENIUS\n    - A: 1.55e-11\n      B: 0\n      C:\
+    \ -540.0\n      MUSICA name: op_c2h5o2 (6)\n      products:\n        C3H7O2:\n\
+    \          yield: 1.0\n      reactants:\n        C4H10: {}\n        OH: {}\n \
+    \     type: ARRHENIUS\n    - A: 8.7e-12\n      B: 0\n      C: -615.0\n      MUSICA\
+    \ name: op_c2h5o2 (7)\n      products:\n        C3H7O2:\n          yield: 1.0\n\
+    \        H2O:\n          yield: 1.0\n      reactants:\n        C3H8: {}\n    \
+    \    OH: {}\n      type: ARRHENIUS\n  - - A: 4.2e-12\n      B: 0\n      C: 180.0\n\
+    \      MUSICA name: op_c3h7o2 (1)\n      products:\n        CH3CHO:\n        \
+    \  yield: 0.27\n        CH3COCH3:\n          yield: 0.82\n        HO2:\n     \
+    \     yield: 1.0\n        NO2:\n          yield: 1.0\n      reactants:\n     \
+    \   C3H7O2: {}\n        'NO': {}\n      type: ARRHENIUS\n    - A: 7.5e-13\n  \
+    \    B: 0\n      C: 700.0\n      MUSICA name: op_c3h7o2 (2)\n      products:\n\
+    \        C3H7OOH:\n          yield: 1.0\n        O2:\n          yield: 1.0\n \
+    \     reactants:\n        C3H7O2: {}\n        HO2: {}\n      type: ARRHENIUS\n\
+    \    - A: 3.75e-13\n      B: 0\n      C: -40.0\n      MUSICA name: op_c3h7o2 (3)\n\
+    \      products:\n        CH2O:\n          yield: 1.0\n        CH3COCH3:\n   \
+    \       yield: 0.82\n        HO2:\n          yield: 1.0\n      reactants:\n  \
+    \      C3H7O2: {}\n        CH3O2: {}\n      type: ARRHENIUS\n    - A: 3.8e-12\n\
+    \      B: 0\n      C: 200.0\n      MUSICA name: op_c3h7o2 (4)\n      products:\n\
+    \        C3H7O2:\n          yield: 1.0\n        H2O:\n          yield: 1.0\n \
+    \     reactants:\n        C3H7OOH: {}\n        OH: {}\n      type: ARRHENIUS\n\
+    \  - - A: 2.9e-12\n      B: 0\n      C: -345.0\n      MUSICA name: uoh_acet (2)\n\
+    \      products:\n        CH2O:\n          yield: 1.0\n        HO2:\n        \
+    \  yield: 1.0\n      reactants:\n        CH3OH: {}\n        OH: {}\n      type:\
+    \ ARRHENIUS\n    - A: 6.9e-12\n      B: 0\n      C: -230.0\n      MUSICA name:\
+    \ uoh_acet (3)\n      products:\n        CH3CHO:\n          yield: 1.0\n     \
+    \   HO2:\n          yield: 1.0\n      reactants:\n        C2H5OH: {}\n       \
+    \ OH: {}\n      type: ARRHENIUS\n    - A: 3.1e-11\n      B: 0\n      C: 350.0\n\
+    \      MUSICA name: uoh_acet (4)\n      products:\n        ISOPO2:\n         \
+    \ yield: 1.0\n      reactants:\n        ISOP: {}\n        OH: {}\n      type:\
+    \ ARRHENIUS\n    - A: 407000000.0\n      B: 0\n      C: -7694.0\n      MUSICA\
+    \ name: uoh_acet (5)\n      products:\n        CH2O:\n          yield: 1.0\n \
+    \       GLYALD:\n          yield: 0.5\n        GLYX:\n          yield: 0.25\n\
+    \        HO2:\n          yield: 1.0\n        HYAC:\n          yield: 0.5\n   \
+    \     MGLY:\n          yield: 0.25\n        OH:\n          yield: 1.0\n      reactants:\n\
+    \        ISOPO2: {}\n      type: ARRHENIUS\n  - - A: 1.0e-14\n      B: 0\n   \
+    \   C: -1970.0\n      MUSICA name: ol_isop (1)\n      products:\n        C3H6:\n\
+    \          yield: 0.128\n        CH2O:\n          yield: 0.845\n        CH3CO3:\n\
+    \          yield: 0.199\n        CH3O2:\n          yield: 0.051\n        CO:\n\
+    \          yield: 0.522\n        H2O2:\n          yield: 0.11\n        HO2:\n\
+    \          yield: 0.026\n        MACR:\n          yield: 0.325\n        MVK:\n\
+    \          yield: 0.244\n        OH:\n          yield: 0.27\n      reactants:\n\
+    \        ISOP: {}\n        O3: {}\n      type: ARRHENIUS\n  - - A: 2.7e-12\n \
+    \     B: 0\n      C: 350.0\n      MUSICA name: op_isopo2 (1)\n      products:\n\
+    \        CH2O:\n          yield: 0.9\n        HO2:\n          yield: 0.9\n   \
+    \     ISOPNB:\n          yield: 0.1\n        MACR:\n          yield: 0.35\n  \
+    \      MVK:\n          yield: 0.55\n        NO2:\n          yield: 0.9\n     \
+    \ reactants:\n        ISOPO2: {}\n        'NO': {}\n      type: ARRHENIUS\n  \
+    \  - A: 2.06e-13\n      B: 0\n      C: 1300.0\n      MUSICA name: op_isopo2 (2)\n\
+    \      products:\n        CH2O:\n          yield: 0.063\n        HO2:\n      \
+    \    yield: 0.063\n        ISOPOOH:\n          yield: 0.937\n        MACR:\n \
+    \         yield: 0.025\n        MVK:\n          yield: 0.038\n        OH:\n  \
+    \        yield: 0.063\n      reactants:\n        HO2: {}\n        ISOPO2: {}\n\
+    \      type: ARRHENIUS\n    - A: 8.37e-14\n      B: 0\n      C: 0\n      MUSICA\
+    \ name: op_isopo2 (3)\n      products:\n        CH2O:\n          yield: 1.22\n\
+    \        CH3OH:\n          yield: 0.24\n        HO2:\n          yield: 1.1\n \
+    \       MACR:\n          yield: 0.18\n        MVK:\n          yield: 0.28\n  \
+    \      RCHO:\n          yield: 0.3\n        ROH:\n          yield: 0.24\n    \
+    \  reactants:\n        CH3O2: {}\n        ISOPO2: {}\n      type: ARRHENIUS\n\
+    \    - A: 1.54e-13\n      B: 0\n      C: 0\n      MUSICA name: op_isopo2 (4)\n\
+    \      products:\n        CH2O:\n          yield: 0.92\n        HO2:\n       \
+    \   yield: 1.28\n        MACR:\n          yield: 0.36\n        MVK:\n        \
+    \  yield: 0.56\n        RCHO:\n          yield: 0.5\n        ROH:\n          yield:\
+    \ 0.48\n      reactants:\n        ISOPO2: {}\n      type: ARRHENIUS\n    - A:\
+    \ 3.61e-12\n      B: 0\n      C: 380.0\n      MUSICA name: op_isopo2 (5)\n   \
+    \   products:\n        ISOPNBO2:\n          yield: 1.0\n      reactants:\n   \
+    \     ISOPNB: {}\n        OH: {}\n      type: ARRHENIUS\n  - - A: 2.4e-12\n  \
+    \    B: 0\n      C: 360.0\n      MUSICA name: op_isopnbo2 (1)\n      products:\n\
+    \        CH2O:\n          yield: 0.69\n        GLYALD:\n          yield: 0.09\n\
+    \        HNO3:\n          yield: 0.42\n        HO2:\n          yield: 0.69\n \
+    \       HYAC:\n          yield: 0.09\n        MACRN:\n          yield: 0.44\n\
+    \        MVKN:\n          yield: 0.26\n        NO2:\n          yield: 0.88\n \
+    \     reactants:\n        ISOPNBO2: {}\n        'NO': {}\n      type: ARRHENIUS\n\
+    \    - A: 8.7e-14\n      B: 0\n      C: 1650.0\n      MUSICA name: op_isopnbo2\
+    \ (2)\n      products:\n        CH2O:\n          yield: 0.44\n        GLYALD:\n\
+    \          yield: 0.06\n        HNO3:\n          yield: 0.5\n        HO2:\n  \
+    \        yield: 0.44\n        HYAC:\n          yield: 0.06\n        MACRN:\n \
+    \         yield: 0.28\n        MVKN:\n          yield: 0.16\n        NO2:\n  \
+    \        yield: 0.06\n        OH:\n          yield: 0.5\n      reactants:\n  \
+    \      HO2: {}\n        ISOPNBO2: {}\n      type: ARRHENIUS\n  - - A: 3.7e-19\n\
+    \      B: 0\n      C: 0\n      MUSICA name: ol_isopnb (1)\n      products:\n \
+    \       CH2O:\n          yield: 1.0\n        MACRN:\n          yield: 0.39\n \
+    \       MVKN:\n          yield: 0.61\n        OH:\n          yield: 0.27\n   \
+    \   reactants:\n        ISOPNB: {}\n        O3: {}\n      type: ARRHENIUS\n  \
+    \  - A: 4.75e-12\n      B: 0\n      C: 200.0\n      MUSICA name: ol_isopnb (2)\n\
+    \      products:\n        ISOPO2:\n          yield: 0.387\n        OH:\n     \
+    \     yield: 0.613\n        RCHO:\n          yield: 0.613\n      reactants:\n\
+    \        ISOPOOH: {}\n        OH: {}\n      type: ARRHENIUS\n    - A: 1.9e-11\n\
+    \      B: 0\n      C: 390.0\n      MUSICA name: ol_isopnb (3)\n      products:\n\
+    \        IEPOX:\n          yield: 1.0\n        OH:\n          yield: 1.0\n   \
+    \   reactants:\n        ISOPOOH: {}\n        OH: {}\n      type: ARRHENIUS\n \
+    \   - A: 5.78e-11\n      B: 0\n      C: -400.0\n      MUSICA name: ol_isopnb (4)\n\
+    \      products:\n        IEPOXOO:\n          yield: 1.0\n      reactants:\n \
+    \       IEPOX: {}\n        OH: {}\n      type: ARRHENIUS\n    - A: 2.06e-13\n\
+    \      B: 0\n      C: 1300.0\n      MUSICA name: ol_isopnb (5)\n      products:\n\
+    \        CH2O:\n          yield: 0.375\n        CO:\n          yield: 0.251\n\
+    \        GLYALD:\n          yield: 0.275\n        GLYX:\n          yield: 0.275\n\
+    \        HO2:\n          yield: 0.825\n        HYAC:\n          yield: 0.725\n\
+    \        MGLY:\n          yield: 0.275\n        OH:\n          yield: 1.125\n\
+    \      reactants:\n        HO2: {}\n        IEPOXOO: {}\n      type: ARRHENIUS\n\
+    \  - - A: 2.7e-12\n      B: 0\n      C: 350.0\n      MUSICA name: op_iepoxo2 (1)\n\
+    \      products:\n        CH2O:\n          yield: 0.375\n        CO:\n       \
+    \   yield: 0.251\n        GLYALD:\n          yield: 0.275\n        GLYX:\n   \
+    \       yield: 0.275\n        HO2:\n          yield: 0.825\n        HYAC:\n  \
+    \        yield: 0.725\n        MGLY:\n          yield: 0.275\n        NO2:\n \
+    \         yield: 1.0\n        OH:\n          yield: 0.125\n      reactants:\n\
+    \        IEPOXOO: {}\n        'NO': {}\n      type: ARRHENIUS\n    - A: 2.6e-12\n\
+    \      B: 0\n      C: 610.0\n      MUSICA name: op_iepoxo2 (2)\n      products:\n\
+    \        MVKO2:\n          yield: 1.0\n      reactants:\n        MVK: {}\n   \
+    \     OH: {}\n      type: ARRHENIUS\n  - - A: 8.5e-16\n      B: 0\n      C: -1520.0\n\
+    \      MUSICA name: ol_mvk (1)\n      products:\n        CH2O:\n          yield:\
+    \ 0.05\n        CH3CHO:\n          yield: 0.05\n        CO:\n          yield:\
+    \ 0.535\n        HO2:\n          yield: 0.202\n        MGLY:\n          yield:\
+    \ 0.95\n        OH:\n          yield: 0.202\n      reactants:\n        MVK: {}\n\
+    \        O3: {}\n      type: ARRHENIUS\n  - - A: 2.7e-12\n      B: 0\n      C:\
+    \ 350.0\n      MUSICA name: op_mvko2 (1)\n      products:\n        CH2O:\n   \
+    \       yield: 0.249\n        CH3CO3:\n          yield: 0.716\n        GLYALD:\n\
+    \          yield: 0.716\n        HO2:\n          yield: 0.249\n        MGLY:\n\
+    \          yield: 0.249\n        MVKN:\n          yield: 0.035\n        NO2:\n\
+    \          yield: 0.965\n      reactants:\n        MVKO2: {}\n        'NO': {}\n\
+    \      type: ARRHENIUS\n    - A: 1.82e-13\n      B: 0\n      C: 1300.0\n     \
+    \ MUSICA name: op_mvko2 (2)\n      products:\n        CH2O:\n          yield:\
+    \ 0.12\n        CH3CO3:\n          yield: 0.37\n        GLYALD:\n          yield:\
+    \ 0.37\n        HO2:\n          yield: 0.25\n        MEK:\n          yield: 0.13\n\
+    \        MGLY:\n          yield: 0.12\n        MVKOOH:\n          yield: 0.38\n\
+    \        OH:\n          yield: 0.62\n        RCHO:\n          yield: 0.033\n \
+    \     reactants:\n        HO2: {}\n        MVKO2: {}\n      type: ARRHENIUS\n\
+    \    - A: 8.37e-14\n      B: 0\n      C: 0\n      MUSICA name: op_mvko2 (3)\n\
+    \      products:\n        CH2O:\n          yield: 0.75\n        CH3CO3:\n    \
+    \      yield: 0.36\n        CH3OH:\n          yield: 0.25\n        GLYALD:\n \
+    \         yield: 0.36\n        HO2:\n          yield: 0.5\n        MEK:\n    \
+    \      yield: 0.25\n        MGLY:\n          yield: 0.14\n        ROH:\n     \
+    \     yield: 0.25\n      reactants:\n        CH3O2: {}\n        MVKO2: {}\n  \
+    \    type: ARRHENIUS\n    - A: 8.78e-12\n      B: 0\n      C: 200.0\n      MUSICA\
+    \ name: op_mvko2 (4)\n      products:\n        MEK:\n          yield: 0.791\n\
+    \        MVKO2:\n          yield: 0.209\n        OH:\n          yield: 0.791\n\
+    \      reactants:\n        MVKOOH: {}\n        OH: {}\n      type: ARRHENIUS\n\
+    \    - A: 1.6e-12\n      B: 0\n      C: 0\n      MUSICA name: op_mvko2 (5)\n \
+    \     products:\n        CH2O:\n          yield: 0.35\n        MGLY:\n       \
+    \   yield: 0.65\n        NO3:\n          yield: 1.0\n      reactants:\n      \
+    \  MVKN: {}\n        OH: {}\n      type: ARRHENIUS\n    - A: 8.0e-12\n      B:\
+    \ 0\n      C: 380.0\n      MUSICA name: op_mvko2 (6)\n      products:\n      \
+    \  MACRO2:\n          yield: 0.55\n        MAO3:\n          yield: 0.45\n    \
+    \  reactants:\n        MACR: {}\n        OH: {}\n      type: ARRHENIUS\n    -\
+    \ A: 29000000.0\n      B: 0\n      C: -5297.0\n      MUSICA name: op_mvko2 (7)\n\
+    \      products:\n        CO:\n          yield: 1.0\n        HYAC:\n         \
+    \ yield: 1.0\n        OH:\n          yield: 1.0\n      reactants:\n        MACRO2:\
+    \ {}\n      type: ARRHENIUS\n  - - A: 1.4e-15\n      B: 0\n      C: -2100.0\n\
+    \      MUSICA name: ol_macr (1)\n      products:\n        CH2O:\n          yield:\
+    \ 0.12\n        CO:\n          yield: 0.569\n        HO2:\n          yield: 0.202\n\
+    \        MGLY:\n          yield: 0.88\n        OH:\n          yield: 0.261\n \
+    \     reactants:\n        MACR: {}\n        O3: {}\n      type: ARRHENIUS\n  \
+    \  - A: 3.4e-15\n      B: 0\n      C: 0\n      MUSICA name: ol_macr (2)\n    \
+    \  products:\n        HNO3:\n          yield: 1.0\n        MAO3:\n          yield:\
+    \ 1.0\n      reactants:\n        MACR: {}\n        NO3: {}\n      type: ARRHENIUS\n\
+    \  - - A: 2.7e-12\n      B: 0\n      C: 350.0\n      MUSICA name: op_macro2 (1)\n\
+    \      products:\n        CO:\n          yield: 0.97\n        HO2:\n         \
+    \ yield: 0.97\n        HYAC:\n          yield: 0.97\n        MACRN:\n        \
+    \  yield: 0.03\n        NO2:\n          yield: 0.97\n      reactants:\n      \
+    \  MACRO2: {}\n        'NO': {}\n      type: ARRHENIUS\n    - A: 1.82e-13\n  \
+    \    B: 0\n      C: 1300.0\n      MUSICA name: op_macro2 (2)\n      products:\n\
+    \        CO:\n          yield: 0.58\n        HO2:\n          yield: 0.58\n   \
+    \     HYAC:\n          yield: 0.58\n        MACROOH:\n          yield: 0.42\n\
+    \        OH:\n          yield: 0.58\n      reactants:\n        HO2: {}\n     \
+    \   MACRO2: {}\n      type: ARRHENIUS\n    - A: 8.37e-14\n      B: 0\n      C:\
+    \ 0\n      MUSICA name: op_macro2 (3)\n      products:\n        CH2O:\n      \
+    \    yield: 1.255\n        CO:\n          yield: 0.595\n        HO2:\n       \
+    \   yield: 1.7\n        HYAC:\n          yield: 0.595\n        MGLY:\n       \
+    \   yield: 0.255\n        ROH:\n          yield: 0.15\n      reactants:\n    \
+    \    CH3O2: {}\n        MACRO2: {}\n      type: ARRHENIUS\n    - A: 1.84e-12\n\
+    \      B: 0\n      C: 200.0\n      MUSICA name: op_macro2 (4)\n      products:\n\
+    \        MACRO2:\n          yield: 1.0\n      reactants:\n        MACROOH: {}\n\
+    \        OH: {}\n      type: ARRHENIUS\n    - A: 4.4e-12\n      B: 0\n      C:\
+    \ 380.0\n      MUSICA name: op_macro2 (5)\n      products:\n        HYAC:\n  \
+    \        yield: 1.0\n        OH:\n          yield: 1.0\n      reactants:\n   \
+    \     MACROOH: {}\n        OH: {}\n      type: ARRHENIUS\n    - A: 3.2e-12\n \
+    \     B: 0\n      C: 0\n      MUSICA name: op_macro2 (6)\n      products:\n  \
+    \      MACRNO2:\n          yield: 1.0\n      reactants:\n        MACRN: {}\n \
+    \       OH: {}\n      type: ARRHENIUS\n  - - A: 2.7e-12\n      B: 0\n      C:\
+    \ 350.0\n      MUSICA name: op_macrno2 (1)\n      products:\n        CH2O:\n \
+    \         yield: 0.08\n        HYAC:\n          yield: 0.85\n        MGLY:\n \
+    \         yield: 0.07\n        NO2:\n          yield: 1.85\n        NO3:\n   \
+    \       yield: 0.15\n      reactants:\n        MACRNO2: {}\n        'NO': {}\n\
+    \      type: ARRHENIUS\n    - A: 1.82e-13\n      B: 0\n      C: 1300.0\n     \
+    \ MUSICA name: op_macrno2 (2)\n      products:\n        CH2O:\n          yield:\
+    \ 0.08\n        HYAC:\n          yield: 0.85\n        MGLY:\n          yield:\
+    \ 0.07\n        NO2:\n          yield: 0.85\n        NO3:\n          yield: 0.15\n\
+    \        OH:\n          yield: 1.0\n      reactants:\n        HO2: {}\n      \
+    \  MACRNO2: {}\n      type: ARRHENIUS\n  - - A: 6.7e-12\n      B: 0\n      C:\
+    \ 340.0\n      MUSICA name: op_mao3 (1)\n      products:\n        CH2O:\n    \
+    \      yield: 0.5\n        CH3CO3:\n          yield: 0.5\n        CH3O2:\n   \
+    \       yield: 0.5\n        CO:\n          yield: 0.5\n        NO2:\n        \
+    \  yield: 1.0\n      reactants:\n        MAO3: {}\n        'NO': {}\n      type:\
+    \ ARRHENIUS\n    - A: 4.3e-13\n      B: 0\n      C: 1040.0\n      MUSICA name:\
+    \ op_mao3 (2)\n      products:\n        CH2O:\n          yield: 0.59\n       \
+    \ CH3O2:\n          yield: 0.39\n        CO:\n          yield: 0.39\n        MAOP:\n\
+    \          yield: 0.41\n        O3:\n          yield: 0.15\n        OH:\n    \
+    \      yield: 0.44\n      reactants:\n        HO2: {}\n        MAO3: {}\n    \
+    \  type: ARRHENIUS\n    - A: 1.68e-12\n      B: 0\n      C: 500.0\n      MUSICA\
+    \ name: op_mao3 (3)\n      products:\n        CH2O:\n          yield: 1.0\n  \
+    \      CH3CO3:\n          yield: 1.0\n        HO2:\n          yield: 1.0\n   \
+    \   reactants:\n        CH3O2: {}\n        MAO3: {}\n      type: ARRHENIUS\n \
+    \   - A: 1.87e-13\n      B: 0\n      C: 500.0\n      MUSICA name: op_mao3 (4)\n\
+    \      products:\n        CH2O:\n          yield: 1.0\n      reactants:\n    \
+    \    CH3O2: {}\n        MAO3: {}\n      type: ARRHENIUS\n  - - Fc: 0.6\n     \
+    \ MUSICA name: umpan_f (1)\n      k0_A: 9.0e-28\n      k0_B: -8.9\n      kinf_A:\
+    \ 7.7e-12\n      kinf_B: -0.2\n      products:\n        M:\n          yield: 1.0\n\
+    \        MPAN:\n          yield: 1.0\n      reactants:\n        M: {}\n      \
+    \  MAO3: {}\n        NO2: {}\n      type: TROE\n  - - A: 6.13e-13\n      B: 0\n\
+    \      C: 200.0\n      MUSICA name: umpan_b (2)\n      products:\n        MAO3:\n\
+    \          yield: 1.0\n      reactants:\n        MAOP: {}\n        OH: {}\n  \
+    \    type: ARRHENIUS\n    - A: 3.6e-12\n      B: 0\n      C: 380.0\n      MUSICA\
+    \ name: umpan_b (3)\n      products:\n        MAOPO2:\n          yield: 1.0\n\
+    \      reactants:\n        MAOP: {}\n        OH: {}\n      type: ARRHENIUS\n \
+    \   - A: 1.82e-13\n      B: 0\n      C: 1300.0\n      MUSICA name: umpan_b (4)\n\
+    \      products:\n        HYAC:\n          yield: 1.0\n        OH:\n         \
+    \ yield: 2.0\n      reactants:\n        HO2: {}\n        MAOPO2: {}\n      type:\
+    \ ARRHENIUS\n    - A: 8.37e-14\n      B: 0\n      C: 0\n      MUSICA name: umpan_b\
+    \ (5)\n      products:\n        C2H5OH:\n          yield: 0.3\n        CH2O:\n\
+    \          yield: 1.0\n        HO2:\n          yield: 0.7\n        HYAC:\n   \
+    \       yield: 0.7\n        OH:\n          yield: 0.7\n      reactants:\n    \
+    \    CH3O2: {}\n        MAOPO2: {}\n      type: ARRHENIUS\n  - - A: 2.35e-12\n\
+    \      B: 0\n      C: 350.0\n      MUSICA name: op_maopo2 (1)\n      products:\n\
+    \        HYAC:\n          yield: 1.0\n        NO2:\n          yield: 1.0\n   \
+    \     OH:\n          yield: 1.0\n      reactants:\n        MAOPO2: {}\n      \
+    \  'NO': {}\n      type: ARRHENIUS\n    - A: 3.5e-13\n      B: 0\n      C: 350.0\n\
+    \      MUSICA name: op_maopo2 (2)\n      products:\n        HNO3:\n          yield:\
+    \ 1.0\n      reactants:\n        MAOPO2: {}\n        'NO': {}\n      type: ARRHENIUS\n\
+    \  - - A: 2.8e-12\n      B: 0\n      C: 300.0\n      MUSICA name: op_ato2 (1)\n\
+    \      products:\n        CH2O:\n          yield: 0.96\n        CH3CO3:\n    \
+    \      yield: 0.96\n        NO2:\n          yield: 0.96\n        R4N2:\n     \
+    \     yield: 0.04\n      reactants:\n        ATO2: {}\n        'NO': {}\n    \
+    \  type: ARRHENIUS\n    - A: 8.6e-13\n      B: 0\n      C: 700.0\n      MUSICA\
+    \ name: op_ato2 (2)\n      products:\n        ATOOH:\n          yield: 0.85\n\
+    \        CH2O:\n          yield: 0.15\n        CH3CO3:\n          yield: 0.15\n\
+    \        OH:\n          yield: 0.15\n      reactants:\n        ATO2: {}\n    \
+    \    HO2: {}\n      type: ARRHENIUS\n    - A: 2.66e-12\n      B: 0\n      C: 200.0\n\
+    \      MUSICA name: op_ato2 (3)\n      products:\n        ATO2:\n          yield:\
+    \ 1.0\n        H2O:\n          yield: 1.0\n      reactants:\n        ATOOH: {}\n\
+    \        OH: {}\n      type: ARRHENIUS\n    - A: 1.14e-12\n      B: 0\n      C:\
+    \ 200.0\n      MUSICA name: op_ato2 (4)\n      products:\n        H2O:\n     \
+    \     yield: 1.0\n        MGLY:\n          yield: 1.0\n        OH:\n         \
+    \ yield: 1.0\n      reactants:\n        ATOOH: {}\n        OH: {}\n      type:\
+    \ ARRHENIUS\n    - A: 2.9e-11\n      B: 0\n      C: 0\n      MUSICA name: op_ato2\
+    \ (5)\n      products:\n        CO:\n          yield: 1.0\n        HYAC:\n   \
+    \       yield: 1.0\n        NO2:\n          yield: 1.0\n      reactants:\n   \
+    \     MPAN: {}\n        OH: {}\n      type: ARRHENIUS\n    - A: 1.0e-11\n    \
+    \  B: 0\n      C: 0\n      MUSICA name: op_ato2 (6)\n      products:\n       \
+    \ CH2O:\n          yield: 0.8\n        CO:\n          yield: 0.8\n        GLYX:\n\
+    \          yield: 0.2\n        HO2:\n          yield: 1.0\n      reactants:\n\
+    \        GLYALD: {}\n        OH: {}\n      type: ARRHENIUS\n    - A: 3.1e-12\n\
+    \      B: 0\n      C: 340.0\n      MUSICA name: op_ato2 (7)\n      products:\n\
+    \        CO:\n          yield: 2.0\n        HO2:\n          yield: 1.0\n     \
+    \ reactants:\n        GLYX: {}\n        OH: {}\n      type: ARRHENIUS\n    - A:\
+    \ 4.0e-16\n      B: 0\n      C: 0\n      MUSICA name: op_ato2 (8)\n      products:\n\
+    \        CO:\n          yield: 2.0\n        HNO3:\n          yield: 1.0\n    \
+    \    HO2:\n          yield: 1.0\n      reactants:\n        GLYX: {}\n        NO3:\
+    \ {}\n      type: ARRHENIUS\n    - A: 1.5e-11\n      B: 0\n      C: 0\n      MUSICA\
+    \ name: op_ato2 (9)\n      products:\n        CH3CO3:\n          yield: 1.0\n\
+    \        CO:\n          yield: 1.0\n      reactants:\n        MGLY: {}\n     \
+    \   OH: {}\n      type: ARRHENIUS\n    - A: 1.4e-12\n      B: 0\n      C: -1860.0\n\
+    \      MUSICA name: op_ato2 (10)\n      products:\n        CH3CO3:\n         \
+    \ yield: 1.0\n        CO:\n          yield: 1.0\n        HNO3:\n          yield:\
+    \ 1.0\n      reactants:\n        MGLY: {}\n        NO3: {}\n      type: ARRHENIUS\n\
+    \    - A: 1.6e-12\n      B: 0\n      C: 305.0\n      MUSICA name: op_ato2 (11)\n\
+    \      products:\n        HO2:\n          yield: 1.0\n        MGLY:\n        \
+    \  yield: 1.0\n      reactants:\n        HYAC: {}\n        OH: {}\n      type:\
+    \ ARRHENIUS\n    - A: 3.3e-12\n      B: 0\n      C: -450.0\n      MUSICA name:\
+    \ op_ato2 (12)\n      products:\n        INO2:\n          yield: 1.0\n      reactants:\n\
+    \        ISOP: {}\n        NO3: {}\n      type: ARRHENIUS\n  - - A: 2.7e-12\n\
+    \      B: 0\n      C: 350.0\n      MUSICA name: op_ino2 (1)\n      products:\n\
+    \        CH2O:\n          yield: 0.07\n        HO2:\n          yield: 0.8\n  \
+    \      ISN1:\n          yield: 0.7\n        MACR:\n          yield: 0.035\n  \
+    \      MVK:\n          yield: 0.035\n        NO2:\n          yield: 1.3\n    \
+    \    RCHO:\n          yield: 0.23\n      reactants:\n        INO2: {}\n      \
+    \  'NO': {}\n      type: ARRHENIUS\n    - A: 2.3e-12\n      B: 0\n      C: 0\n\
+    \      MUSICA name: op_ino2 (2)\n      products:\n        CH2O:\n          yield:\
+    \ 0.07\n        HO2:\n          yield: 0.8\n        ISN1:\n          yield: 0.7\n\
+    \        MACR:\n          yield: 0.035\n        MVK:\n          yield: 0.035\n\
+    \        NO2:\n          yield: 1.3\n        RCHO:\n          yield: 0.23\n  \
+    \    reactants:\n        INO2: {}\n        NO3: {}\n      type: ARRHENIUS\n  \
+    \  - A: 2.06e-13\n      B: 0\n      C: 1300.0\n      MUSICA name: op_ino2 (3)\n\
+    \      products:\n        CH2O:\n          yield: 0.235\n        INPN:\n     \
+    \     yield: 0.765\n        MACR:\n          yield: 0.015\n        MVK:\n    \
+    \      yield: 0.22\n        NO2:\n          yield: 0.235\n        OH:\n      \
+    \    yield: 0.235\n      reactants:\n        HO2: {}\n        INO2: {}\n     \
+    \ type: ARRHENIUS\n    - A: 1.9e-11\n      B: 0\n      C: 390.0\n      MUSICA\
+    \ name: op_ino2 (4)\n      products:\n        MEK:\n          yield: 1.0\n   \
+    \     NO2:\n          yield: 1.0\n        OH:\n          yield: 1.0\n      reactants:\n\
+    \        INPN: {}\n        OH: {}\n      type: ARRHENIUS\n    - A: 5.18e-12\n\
+    \      B: 0\n      C: 200.0\n      MUSICA name: op_ino2 (5)\n      products:\n\
+    \        INO2:\n          yield: 0.36\n        OH:\n          yield: 0.64\n  \
+    \      R4N2:\n          yield: 0.64\n      reactants:\n        INPN: {}\n    \
+    \    OH: {}\n      type: ARRHENIUS\n    - A: 3.15e-13\n      B: 0\n      C: -448.0\n\
+    \      MUSICA name: op_ino2 (6)\n      products:\n        HNO3:\n          yield:\
+    \ 1.0\n        ISNOOA:\n          yield: 1.0\n      reactants:\n        ISN1:\
+    \ {}\n        NO3: {}\n      type: ARRHENIUS\n    - A: 4.0e-12\n      B: 0\n \
+    \     C: 0\n      MUSICA name: op_ino2 (7)\n      products:\n        CO:\n   \
+    \       yield: 1.0\n        HO2:\n          yield: 1.0\n        NO2:\n       \
+    \   yield: 1.0\n        R4N2:\n          yield: 1.0\n      reactants:\n      \
+    \  ISNOOA: {}\n        NO3: {}\n      type: ARRHENIUS\n    - A: 6.7e-12\n    \
+    \  B: 0\n      C: 340.0\n      MUSICA name: op_ino2 (8)\n      products:\n   \
+    \     CO:\n          yield: 1.0\n        HO2:\n          yield: 1.0\n        NO2:\n\
+    \          yield: 1.0\n        R4N2:\n          yield: 1.0\n      reactants:\n\
+    \        ISNOOA: {}\n        'NO': {}\n      type: ARRHENIUS\n    - A: 5.2e-13\n\
+    \      B: 0\n      C: 980.0\n      MUSICA name: op_ino2 (9)\n      products:\n\
+    \        HNO3:\n          yield: 1.0\n        O3:\n          yield: 0.25\n   \
+    \     RCOOH:\n          yield: 0.25\n      reactants:\n        HO2: {}\n     \
+    \   ISNOOA: {}\n      type: ARRHENIUS\n    - A: 4.15e-15\n      B: 0\n      C:\
+    \ -1520.0\n      MUSICA name: op_ino2 (10)\n      products:\n        CO:\n   \
+    \       yield: 0.45\n        GLYX:\n          yield: 0.7\n        HO2:\n     \
+    \     yield: 0.45\n        MGLY:\n          yield: 0.7\n        NO2:\n       \
+    \   yield: 0.7\n        OH:\n          yield: 0.7\n        R4N2:\n          yield:\
+    \ 0.3\n      reactants:\n        ISN1: {}\n        O3: {}\n      type: ARRHENIUS\n\
+    \    - A: 7.48e-12\n      B: 0\n      C: 410.0\n      MUSICA name: op_ino2 (11)\n\
+    \      products:\n        ISNOOA:\n          yield: 1.0\n      reactants:\n  \
+    \      ISN1: {}\n        OH: {}\n      type: ARRHENIUS\n    - A: 1.6e-12\n   \
+    \   B: 0\n      C: 0\n      MUSICA name: op_ino2 (12)\n      products:\n     \
+    \   H2O:\n          yield: 1.0\n        R4N1:\n          yield: 1.0\n      reactants:\n\
+    \        OH: {}\n        R4N2: {}\n      type: ARRHENIUS\n    - A: 1.2e-11\n \
+    \     B: 0\n      C: 440.0\n      MUSICA name: op_ino2 (13)\n      products:\n\
+    \        CH3COCH3:\n          yield: 0.1\n        ISOPO2:\n          yield: 1.64\n\
+    \      reactants:\n        C10H16: {}\n        OH: {}\n      type: ARRHENIUS\n\
+    \  - - A: 5.3e-16\n      B: 0\n      C: -530.0\n      MUSICA name: ol_c10h16 (1)\n\
+    \      products:\n        MACR:\n          yield: 1.122\n        MVK:\n      \
+    \    yield: 0.442\n        O:\n          yield: 0.765\n        OH:\n         \
+    \ yield: 1.156\n      reactants:\n        C10H16: {}\n        O3: {}\n      type:\
+    \ ARRHENIUS\n    - A: 1.2e-12\n      B: 0\n      C: 490.0\n      MUSICA name:\
+    \ ol_c10h16 (2)\n      products:\n        ISOPO2:\n          yield: 1.7\n    \
+    \    NO2:\n          yield: 1.0\n      reactants:\n        C10H16: {}\n      \
+    \  NO3: {}\n      type: ARRHENIUS\n  - - A: 2.1e-06\n      B: 0\n      C: 0\n\
+    \      MUSICA name: so2h (2)\n      products:\n        Pb:\n          yield: 1.0\n\
+    \      reactants:\n        Rn: {}\n      type: ARRHENIUS\n    - A: 7.1e-06\n \
+    \     B: 0\n      C: 0\n      MUSICA name: so2h (3)\n      products:\n       \
+    \ BC2:\n          yield: 1.0\n      reactants:\n        BC1: {}\n      type: ARRHENIUS\n\
+    \    - A: 7.1e-06\n      B: 0\n      C: 0\n      MUSICA name: so2h (4)\n     \
+    \ products:\n        OC2:\n          yield: 1.0\n      reactants:\n        OC1:\
+    \ {}\n      type: ARRHENIUS\n    - Fc: 0.6\n      MUSICA name: so2h (5)\n    \
+    \  k0_A: 3.3e-31\n      k0_B: -4.3\n      kinf_A: 1.6e-12\n      kinf_B: -0.0\n\
+    \      products:\n        M:\n          yield: 1.0\n        SO4:\n          yield:\
+    \ 1.0\n      reactants:\n        M: {}\n        OH: {}\n        SO2: {}\n    \
+    \  type: TROE\n    - A: 1.2e-11\n      B: 0\n      C: -280.0\n      MUSICA name:\
+    \ so2h (6)\n      products:\n        CH2O:\n          yield: 1.0\n        SO2:\n\
+    \          yield: 1.0\n      reactants:\n        DMS: {}\n        OH: {}\n   \
+    \   type: ARRHENIUS\n  - - A: 1.9e-13\n      B: 0\n      C: 530.0\n      MUSICA\
+    \ name: uoh_dms (2)\n      products:\n        CH2O:\n          yield: 1.0\n  \
+    \      HNO3:\n          yield: 1.0\n        SO2:\n          yield: 1.0\n     \
+    \ reactants:\n        DMS: {}\n        NO3: {}\n      type: ARRHENIUS\n  - - A:\
+    \ 1.7e-12\n      B: 0\n      C: -710.0\n      MUSICA name: nh3h (2)\n      products:\n\
+    \        H2O:\n          yield: 1.0\n        HNO3:\n          yield: 1.0\n   \
+    \   reactants:\n        NH3: {}\n        OH: {}\n      type: ARRHENIUS\n  - -\
+    \ A: 1.4e-10\n      B: 0\n      C: -470.0\n      MUSICA name: strat13 (1)\n  \
+    \    products:\n        O2:\n          yield: 1.0\n        OH:\n          yield:\
+    \ 1.0\n      reactants:\n        H: {}\n        O3: {}\n      type: ARRHENIUS\n\
+    \  - - Fc: 0.6\n      MUSICA name: strat14 (1)\n      k0_A: 4.4e-32\n      k0_B:\
+    \ -1.3\n      kinf_A: 4.7e-11\n      kinf_B: -0.2\n      products:\n        HO2:\n\
+    \          yield: 1.0\n        M:\n          yield: 1.0\n      reactants:\n  \
+    \      H: {}\n        M: {}\n        O2: {}\n      type: TROE\n  - - A: 2.3e-11\n\
+    \      B: 0\n      C: -200.0\n      MUSICA name: strat20 (1)\n      products:\n\
+    \        ClO:\n          yield: 1.0\n        O2:\n          yield: 1.0\n     \
+    \ reactants:\n        Cl: {}\n        O3: {}\n      type: ARRHENIUS\n  - - A:\
+    \ 2.8e-11\n      B: 0\n      C: 85.0\n      MUSICA name: strat21 (1)\n      products:\n\
+    \        Cl:\n          yield: 1.0\n        O2:\n          yield: 1.0\n      reactants:\n\
+    \        ClO: {}\n        O: {}\n      type: ARRHENIUS\n  - - A: 6.4e-12\n   \
+    \   B: 0\n      C: 290.0\n      MUSICA name: strat22 (1)\n      products:\n  \
+    \      Cl:\n          yield: 1.0\n        NO2:\n          yield: 1.0\n      reactants:\n\
+    \        ClO: {}\n        'NO': {}\n      type: ARRHENIUS\n  - - Fc: 0.6\n   \
+    \   MUSICA name: strat23 (1)\n      k0_A: 1.8e-31\n      k0_B: -3.4\n      kinf_A:\
+    \ 1.5e-11\n      kinf_B: -1.9\n      products:\n        ClONO2:\n          yield:\
+    \ 1.0\n        M:\n          yield: 1.0\n      reactants:\n        ClO: {}\n \
+    \       M: {}\n        NO2: {}\n      type: TROE\n  - - A: 2.9e-12\n      B: 0\n\
+    \      C: -800.0\n      MUSICA name: strat24 (1)\n      products:\n        ClO:\n\
+    \          yield: 1.0\n        NO3:\n          yield: 1.0\n      reactants:\n\
+    \        ClONO2: {}\n        O: {}\n      type: ARRHENIUS\n  - - A: 7.3e-12\n\
+    \      B: 0\n      C: -1280.0\n      MUSICA name: strat25 (1)\n      products:\n\
+    \        CH3O2:\n          yield: 1.0\n        HCl:\n          yield: 1.0\n  \
+    \    reactants:\n        CH4: {}\n        Cl: {}\n      type: ARRHENIUS\n  - -\
+    \ A: 2.6e-12\n      B: 0\n      C: -350.0\n      MUSICA name: strat26 (1)\n  \
+    \    products:\n        Cl:\n          yield: 1.0\n        H2O:\n          yield:\
+    \ 1.0\n      reactants:\n        HCl: {}\n        OH: {}\n      type: ARRHENIUS\n\
+    \  - - A: 1.8e-11\n      B: 0\n      C: 170.0\n      MUSICA name: strat27 (1)\n\
+    \      products:\n        HCl:\n          yield: 1.0\n        O2:\n          yield:\
+    \ 1.0\n      reactants:\n        Cl: {}\n        HO2: {}\n      type: ARRHENIUS\n\
+    \  - - A: 2.7e-12\n      B: 0\n      C: 220.0\n      MUSICA name: strat28 (1)\n\
+    \      products:\n        HOCl:\n          yield: 1.0\n        O2:\n         \
+    \ yield: 1.0\n      reactants:\n        ClO: {}\n        HO2: {}\n      type:\
+    \ ARRHENIUS\n  - - A: 7.4e-12\n      B: 0\n      C: 270.0\n      MUSICA name:\
+    \ strat29 (1)\n      products:\n        Cl:\n          yield: 1.0\n        HO2:\n\
+    \          yield: 1.0\n      reactants:\n        ClO: {}\n        OH: {}\n   \
+    \   type: ARRHENIUS\n  - - A: 8.1e-11\n      B: 0\n      C: -30.0\n      MUSICA\
+    \ name: strat33 (1)\n      products:\n        CO:\n          yield: 1.0\n    \
+    \    HCl:\n          yield: 1.0\n        HO2:\n          yield: 1.0\n      reactants:\n\
+    \        CH2O: {}\n        Cl: {}\n      type: ARRHENIUS\n  - - Fc: 0.6\n    \
+    \  MUSICA name: strat35 (1)\n      k0_A: 6.9e-31\n      k0_B: -1.0\n      kinf_A:\
+    \ 2.6e-11\n      kinf_B: -0.0\n      products:\n        H2O2:\n          yield:\
+    \ 1.0\n        M:\n          yield: 1.0\n      reactants:\n        M: {}\n   \
+    \     OH: {}\n      type: TROE\n  - - Fc: 0.6\n      MUSICA name: strat37 (1)\n\
+    \      k0_A: 1.6e-32\n      k0_B: -4.5\n      kinf_A: 2.0e-12\n      kinf_B: -2.4\n\
+    \      products:\n        Cl2O2:\n          yield: 1.0\n        M:\n         \
+    \ yield: 1.0\n      reactants:\n        ClO: {}\n        M: {}\n      type: TROE\n\
+    \  - - A: 1.7e-11\n      B: 0\n      C: -800.0\n      MUSICA name: strat39 (1)\n\
+    \      products:\n        BrO:\n          yield: 1.0\n        O2:\n          yield:\
+    \ 1.0\n      reactants:\n        Br: {}\n        O3: {}\n      type: ARRHENIUS\n\
+    \  - - Fc: 0.6\n      MUSICA name: strat40 (1)\n      k0_A: 5.2e-31\n      k0_B:\
+    \ -3.2\n      kinf_A: 6.9e-12\n      kinf_B: -2.9\n      products:\n        BrONO2:\n\
+    \          yield: 1.0\n        M:\n          yield: 1.0\n      reactants:\n  \
+    \      BrO: {}\n        M: {}\n        NO2: {}\n      type: TROE\n  - - A: 2.3e-12\n\
+    \      B: 0\n      C: 260.0\n      MUSICA name: strat41 (1)\n      products:\n\
+    \        Br:\n          yield: 1.0\n        Cl:\n          yield: 1.0\n      \
+    \  O2:\n          yield: 1.0\n      reactants:\n        BrO: {}\n        ClO:\
+    \ {}\n      type: ARRHENIUS\n  - - A: 4.5e-12\n      B: 0\n      C: 460.0\n  \
+    \    MUSICA name: strat42 (1)\n      products:\n        HOBr:\n          yield:\
+    \ 1.0\n        O2:\n          yield: 1.0\n      reactants:\n        BrO: {}\n\
+    \        HO2: {}\n      type: ARRHENIUS\n  - - A: 8.8e-12\n      B: 0\n      C:\
+    \ 260.0\n      MUSICA name: strat43 (1)\n      products:\n        Br:\n      \
+    \    yield: 1.0\n        NO2:\n          yield: 1.0\n      reactants:\n      \
+    \  BrO: {}\n        'NO': {}\n      type: ARRHENIUS\n  - - A: 1.2e-10\n      B:\
+    \ 0\n      C: -430.0\n      MUSICA name: strat44 (1)\n      products:\n      \
+    \  BrO:\n          yield: 1.0\n        OH:\n          yield: 1.0\n      reactants:\n\
+    \        HOBr: {}\n        O: {}\n      type: ARRHENIUS\n  - - A: 4.8e-12\n  \
+    \    B: 0\n      C: -310.0\n      MUSICA name: strat45 (1)\n      products:\n\
+    \        HBr:\n          yield: 1.0\n        O2:\n          yield: 1.0\n     \
+    \ reactants:\n        Br: {}\n        HO2: {}\n      type: ARRHENIUS\n  - - A:\
+    \ 1.7e-11\n      B: 0\n      C: -800.0\n      MUSICA name: strat46 (1)\n     \
+    \ products:\n        CO:\n          yield: 1.0\n        HBr:\n          yield:\
+    \ 1.0\n        HO2:\n          yield: 1.0\n      reactants:\n        Br: {}\n\
+    \        CH2O: {}\n      type: ARRHENIUS\n  - - A: 5.5e-12\n      B: 0\n     \
+    \ C: 200.0\n      MUSICA name: strat47 (1)\n      products:\n        Br:\n   \
+    \       yield: 1.0\n        H2O:\n          yield: 1.0\n      reactants:\n   \
+    \     HBr: {}\n        OH: {}\n      type: ARRHENIUS\n  - - A: 4.1e-13\n     \
+    \ B: 0\n      C: 290.0\n      MUSICA name: strat48 (1)\n      products:\n    \
+    \    BrCl:\n          yield: 1.0\n        O2:\n          yield: 1.0\n      reactants:\n\
+    \        BrO: {}\n        ClO: {}\n      type: ARRHENIUS\n  - - A: 6.0e-13\n \
+    \     B: 0\n      C: 230.0\n      MUSICA name: strat69 (1)\n      products:\n\
+    \        HCl:\n          yield: 1.0\n        O2:\n          yield: 1.0\n     \
+    \ reactants:\n        ClO: {}\n        OH: {}\n      type: ARRHENIUS\n  - - A:\
+    \ 4.5e-14\n      B: 0\n      C: -1260.0\n      MUSICA name: strat58 (1)\n    \
+    \  products:\n        'NO':\n          yield: 1.0\n        NO2:\n          yield:\
+    \ 1.0\n        O2:\n          yield: 1.0\n      reactants:\n        NO2: {}\n\
+    \        NO3: {}\n      type: ARRHENIUS\n  - - A: 8.5e-13\n      B: 0\n      C:\
+    \ -2450.0\n      MUSICA name: strat59 (1)\n      products:\n        NO2:\n   \
+    \       yield: 2.0\n        O2:\n          yield: 1.0\n      reactants:\n    \
+    \    NO3: {}\n      type: ARRHENIUS\n  - - Fc: 0.6\n      MUSICA name: strat64\
+    \ (1)\n      k0_A: 9.0e-32\n      k0_B: -1.5\n      kinf_A: 3.0e-11\n      kinf_B:\
+    \ -0.0\n      products:\n        M:\n          yield: 1.0\n        NO2:\n    \
+    \      yield: 1.0\n      reactants:\n        M: {}\n        'NO': {}\n       \
+    \ O: {}\n      type: TROE\n  - - A: 5.8e-12\n      B: 0\n      C: 220.0\n    \
+    \  MUSICA name: strat71 (1)\n      products:\n        N2O:\n          yield: 1.0\n\
+    \        O:\n          yield: 1.0\n      reactants:\n        N: {}\n        NO2:\
+    \ {}\n      type: ARRHENIUS\n  - - A: 3.17e-08\n      MUSICA name: lch4 (1)\n\
+    \      products: {}\n      reactants:\n        LCH4: {}\n      type: FIRST_ORDER_LOSS\n\
+    \  type: MECHANISM\n"
