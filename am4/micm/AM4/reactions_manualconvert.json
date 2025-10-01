@@ -68,17 +68,13 @@
                     "kinf_C": -11000,
                     "Fc": 0.6,
                     "reactants": {
-                        "N2O5": { },
-                        "M": { }
+                        "N2O5": { }
                     },
                     "products": {
                         "NO2": {
                             "yield": 1.0
                         },
                         "NO3": {
-                            "yield": 1.0
-                        },
-                        "M": {
                             "yield": 1.0
                         }
                     }
@@ -254,12 +250,10 @@
                     "kinf_B": -2.4,
                     "kinf_C": -8835,
                     "reactants": {
-                        "Cl2O2": { },
-                        "M": { }
+                        "Cl2O2": { }
                     },
                     "products": {
-                        "ClO": { "yield": 2 },
-                        "M": { }
+                        "ClO": { "yield": 2 }
                     }
                 },  
                 {
@@ -271,13 +265,11 @@
                     "kinf_B": -1.5,
                     "kinf_C": -14000,
                     "reactants": {
-                        "PAN": { },
-                        "M": { }
+                        "PAN": { }
                     }, 
                     "products": {
                         "CH3CO3": { },
-                        "NO2": { },
-                        "M": { }
+                        "NO2": { }
                     }
                 },
                 {
@@ -289,13 +281,11 @@
                     "kinf_B": -0.2,
                     "kinf_C": -14000,
                     "reactants": {
-                        "MPAN": { },
-                        "M": { }
+                        "MPAN": { }
                     }, 
                     "products": {
                         "MAO3": { },
-                        "NO2": { },
-                        "M": { }
+                        "NO2": { }
                     }
                 },
                 {
