@@ -5,7 +5,7 @@
             "type": "MECHANISM",
             "reactions": [
                     {
-                        "MUSICA name": "jo2 (1)",
+                        "MUSICA name": "jo2",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "O2": {}
@@ -17,7 +17,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jo1d (1)",
+                        "MUSICA name": "jo1d",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "O3": {}
@@ -32,7 +32,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jo3p (1)",
+                        "MUSICA name": "jo3p",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "O3": {}
@@ -47,7 +47,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jn2o (1)",
+                        "MUSICA name": "jn2o",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "N2O": {}
@@ -62,7 +62,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jno (1)",
+                        "MUSICA name": "jno",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "NO": {}
@@ -77,7 +77,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jno2 (1)",
+                        "MUSICA name": "jno2",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "NO2": {}
@@ -92,7 +92,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jn2o5 (1)",
+                        "MUSICA name": "jn2o5",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "N2O5": {}
@@ -107,7 +107,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jhno3 (1)",
+                        "MUSICA name": "jhno3",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "HNO3": {}
@@ -122,7 +122,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jno3 (1)",
+                        "MUSICA name": "jno3",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "NO3": {}
@@ -140,7 +140,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jho2no2 (1)",
+                        "MUSICA name": "jho2no2",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "HO2NO2": {}
@@ -155,7 +155,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jch3ooh (1)",
+                        "MUSICA name": "jch3ooh",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "CH3OOH": {}
@@ -173,7 +173,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jch2o_a (1)",
+                        "MUSICA name": "jch2o_a",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "CH2O": {}
@@ -191,7 +191,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jch2o_b (1)",
+                        "MUSICA name": "jch2o_b",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "CH2O": {}
@@ -206,7 +206,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jh2o (1)",
+                        "MUSICA name": "jh2o",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "H2O": {}
@@ -221,7 +221,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jh2o2 (1)",
+                        "MUSICA name": "jh2o2",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "H2O2": {}
@@ -233,7 +233,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jch3cho (1)",
+                        "MUSICA name": "jch3cho",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "CH3CHO": {}
@@ -251,7 +251,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jpooh (1)",
+                        "MUSICA name": "jpooh",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "POOH": {}
@@ -272,7 +272,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jch3co3h (1)",
+                        "MUSICA name": "jch3co3h",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "CH3COOOH": {}
@@ -290,7 +290,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jpan (1)",
+                        "MUSICA name": "jpan",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "PAN": {}
@@ -311,7 +311,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jmpan (1)",
+                        "MUSICA name": "jmpan",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "MPAN": {}
@@ -326,7 +326,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jmacr_a (1)",
+                        "MUSICA name": "jmacr_a",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "MACR": {}
@@ -347,7 +347,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jmacr_b (1)",
+                        "MUSICA name": "jmacr_b",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "MACR": {}
@@ -362,7 +362,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jmvk (1)",
+                        "MUSICA name": "jmvk",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "MVK": {}
@@ -383,7 +383,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jc2h5ooh (1)",
+                        "MUSICA name": "jc2h5ooh",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "C2H5OOH": {}
@@ -401,7 +401,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jc3h7ooh (1)",
+                        "MUSICA name": "jc3h7ooh",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "C3H7OOH": {}
@@ -419,7 +419,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jacet (1)",
+                        "MUSICA name": "jacet",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "CH3COCH3": {}
@@ -434,7 +434,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jmgly (1)",
+                        "MUSICA name": "jmgly",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "MGLY": {}
@@ -452,7 +452,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jglyoxal (1)",
+                        "MUSICA name": "jglyoxal",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "GLYX": {}
@@ -467,7 +467,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jisopooh (1)",
+                        "MUSICA name": "jisopooh",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "ISOPOOH": {}
@@ -488,7 +488,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jhyac (1)",
+                        "MUSICA name": "jhyac",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "HYAC": {}
@@ -506,7 +506,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jglyald (1)",
+                        "MUSICA name": "jglyald",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "GLYALD": {}
@@ -524,7 +524,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jisopnb (1)",
+                        "MUSICA name": "jisopnb",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "ISOPNB": {}
@@ -542,7 +542,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jmacrn (1)",
+                        "MUSICA name": "jmacrn",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "MACRN": {}
@@ -569,7 +569,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jmvkn (1)",
+                        "MUSICA name": "jmvkn",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "MVKN": {}
@@ -587,7 +587,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jr4n2 (1)",
+                        "MUSICA name": "jr4n2",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "R4N2": {}
@@ -617,7 +617,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jclono2 (1)",
+                        "MUSICA name": "jclono2",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "ClONO2": {}
@@ -632,7 +632,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jhocl (1)",
+                        "MUSICA name": "jhocl",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "HOCl": {}
@@ -647,7 +647,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jcl2o2 (1)",
+                        "MUSICA name": "jcl2o2",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "Cl2O2": {}
@@ -662,7 +662,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jbrono2 (1)",
+                        "MUSICA name": "jbrono2",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "BrONO2": {}
@@ -677,7 +677,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jhobr (1)",
+                        "MUSICA name": "jhobr",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "HOBr": {}
@@ -692,7 +692,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jbrcl (1)",
+                        "MUSICA name": "jbrcl",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "BrCl": {}
@@ -707,7 +707,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jbro (1)",
+                        "MUSICA name": "jbro",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "BrO": {}
@@ -722,7 +722,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "jcl2 (1)",
+                        "MUSICA name": "jcl2",
                         "type": "PHOTOLYSIS",
                         "reactants": {
                             "Cl2": {}
@@ -734,7 +734,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "uo_o2 (2)",
+                        "MUSICA name": "uo_o2",
                         "type": "ARRHENIUS",
                         "A": 8e-12,
                         "B": 0,
@@ -750,7 +750,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "uo_o2 (3)",
+                        "MUSICA name": "uo_o2",
                         "type": "ARRHENIUS",
                         "A": 1.5e-11,
                         "B": 0,
@@ -769,7 +769,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "uo_o2 (4)",
+                        "MUSICA name": "uo_o2",
                         "type": "ARRHENIUS",
                         "A": 2.1e-11,
                         "B": 0,
