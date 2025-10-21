@@ -734,7 +734,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "uo_o2",
+                        "MUSICA name": "uo_o2 (2)",
                         "type": "ARRHENIUS",
                         "A": 8e-12,
                         "B": 0,
@@ -750,7 +750,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "uo_o2",
+                        "MUSICA name": "uo_o2 (3)",
                         "type": "ARRHENIUS",
                         "A": 1.5e-11,
                         "B": 0,
@@ -769,7 +769,7 @@
                         }
                     },
                     {
-                        "MUSICA name": "uo_o2",
+                        "MUSICA name": "uo_o2 (4)",
                         "type": "ARRHENIUS",
                         "A": 2.1e-11,
                         "B": 0,
@@ -788,6 +788,7 @@
                         }
                     },
                     {
+                        "__note": "uco_oha"
                         "type": "TROE",
                         "k0_A": 5.9e-33,
                         "k0_B": -1.4,
